@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#main {
+    width: 777px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 0px;
+    background: url("images/background.gif");
+}
+
+body.nomenu div#main {
+    background-image: url("images/background-noleft.gif");
+}
+
+div#header {
+    margin: 0px;
+    background-image: url("images/header.png");
+    width: 777px;
+    height: 117px;
+}
+
+body.nomenu div#header {
+    background-image: url("images/header-noleft.png");
+}
+
+div#title {
+    border-bottom: 1px solid black;
+    width: 607px;
+    height: 26px;
+    margin-left: 111px;
+    padding: 4px 20px 0px 20px;
+    overflow: hidden;
+}
+
+body.nomenu div#title {
+    width: 699px;
+    margin-left: 19px;
+}
+
+div#title h1 {
+    color: #452b6a;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 0px;
+    float: left;
+    border-bottom: none;
+    padding: 0;
+}
+div#title h2 {
+    color:#452b6a;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    margin: 8px 0px 0px 0px;
+    float: right;
+    border-bottom: none;
+    padding: 0;
+    width: auto;
+    text-transform: none;
+}
+
+div#menu {
+    position: relative;
+    left: 19px;
+    width: 92px;
+    top: -1px;
+    margin: 0px;
+    float: left;
+}
+
+div#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+div#menu ul li {
+    display: block;
+    margin: 0px;
+    padding: 0;
+}
+
+div#menu p {
+    background-color: #42296b;
+    color: white;
+    font-family: arial, helvetica, sans-serif, verdana;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 19px;
+    font-variant: normal;
+    margin: 0px;
+    padding: 2px 0 0 0;
+}
+div#menu ul ul {
+    list-style:none;
+    margin: 5px 0px 15px 0px;
+    padding: 0px 3px 0px 0px;
+}
+div#menu ul ul li {
+    display: block;
+    text-align: right;
+}
+div#menu ul ul a, div#menu td.menublock a {
+    line-height: 12px;
+    color: black;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-variant: normal;
+    display: block;
+    text-transform: lowercase;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#menu ul ul a:hover, div#menu td.menublock a:hover {
+    text-decoration: underline;
+}
+
+div#menu p a {
+    background-color: #42296b;
+    color: white;
+    font-family: arial, helvetica, sans-serif, verdana;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+
+div#menu table {
+    table-layout: fixed;
+}
+
+div#menu p a:hover {
+    text-decoration: underline;
+}
+
+div#body {
+    float: right;
+    width: 627px;
+    margin-right: 40px;
+
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div#body div#body2 {
+    margin-left: 40px;
+}
+
+div#floatright {
+    float: right;
+    text-align: right;
+    margin-right: 0;
+    margin-top: -20px;
+}
+
+div#floatright h2 {
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: lowercase;
+    text-decoration: underline;
+    margin: 0;
+    line-height: 12px;
+}
+
+div#floatright ul {
+    padding: 0;
+    text-align: right;
+}
+
+div#floatright ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+}
+
+div#floatright p {
+    margin: 0;
+}
+
+div#content h1, div#content h2 {
+    margin-left: -20px;
+    margin-top: 48px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+    color: #452b6a;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+div#content h3 {
+    color: #452b6a;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div#footer {
+    clear: both;
+    font-family: arial, helvetiva, sans-serif;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 2px;
+    width: 738px;
+    height: 15px;
+    background-image: url(images/footer.gif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #e7def7;
+}
+
+div#footer a {
+	color: black;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+div#footer a:hover {
+	text-decoration: underline;
+}
+
+
+
+a {
+  color:#452B6A;
+  font-family:verdana,arial,helvetica,sans-serif;
+  font-size:10px;
+  font-style:normal;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+/*
+a.nonintrusive {
+    text-transform: none;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: underline;
+}
+*/
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color:#c6adde;
+}
+
+
+div.shortevent {
+}
+
+div.shortevent .eventdate {
+    width: 120px;
+}
+
+.eventdate, .eventinfo {
+    float: left;
+}
+
+.eventdate {
+    clear: left;
+}
+
+.eventinfo {
+    font-weight: bold;
+}
+
+tbody {
+    border-top: 0;
+}
+
+img.floatlogo {
+    float: right;
+    margin-right: 20px;
+}
+
+ul.menu li {
+    list-style-image: none;
+    list-style-type: none;
+}
+

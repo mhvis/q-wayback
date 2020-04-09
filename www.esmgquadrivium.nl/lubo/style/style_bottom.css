@@ -1,0 +1,5 @@
+table {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal}
+A  {  color: #000000; text-decoration: none}
+A:Visited  {color: #000000}
+A:Active  {text-decoration: underline}
+A:Hover  {text-decoration : underline}

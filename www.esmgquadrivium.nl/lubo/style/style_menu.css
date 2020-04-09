@@ -1,0 +1,9 @@
+p {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; font-variant: normal; color: #000000}
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #000000; background-color: #E5DDF4}
+
+A  {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; font-variant: normal; color: #000000; text-decoration: none}
+A:Visited  {color: #000000}
+A:Active  {text-decoration: underline; color: #000000}
+A:Hover  {text-decoration : underline; color: #000000}
+
+table {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; font-variant: normal; color: #888888}

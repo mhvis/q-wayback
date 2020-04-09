@@ -1,0 +1,23 @@
+
+img {
+    border: 0;
+}
+
+table.itemgrid {
+    width: 100%;
+}
+
+table.itemgrid td {
+    width: 25%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+table.itemgrid td.desc {
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+div#content {
+    text-align: center;
+}

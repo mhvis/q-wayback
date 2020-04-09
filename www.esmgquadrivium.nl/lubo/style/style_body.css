@@ -1,0 +1,14 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #000000; background-color: #FFFFFF; line-height: 18px}
+p {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; color: #000000; line-height: 20px}
+
+A  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #452B6A; text-transform: uppercase; text-decoration: none}
+A:Visited  {color: #C6ADDE}
+A:Active  {}
+A:Hover  {color: #452B6A; text-decoration: underline}
+
+li {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; line-height: 20px}
+
+.head {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; line-height: 26px; font-weight: bold; text-transform: uppercase; color: #452B6A}
+.division {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #452B6A; text-align: right}
+.head2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; text-transform: uppercase; color: #452B6A}
+.lubohead {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #000000; background-color: #FFFFFF}
