@@ -1,0 +1,257 @@
+body{background-color:#363638;
+}
+
+/* Main layers */
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	width: 855px;
+}
+#header{
+	background-image:url(images/header.jpg);
+	height: 184px;
+	padding: 0em 0em 0em 0em;
+}
+#main-content{
+	background-image:url(images/contentbg.jpg);
+	background-repeat:repeat-y;
+	padding: 0.5em 2.0em 0em 3.5em;
+	position:relative;
+}
+#footer{
+	background-image:url(images/footer.jpg);
+	height:63px;
+	padding: 30px 2.0em 0em 3.5em;
+}
+/* -------------- */
+
+/* Language buttons */
+#language {
+	margin: 38px 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position:relative;
+	float:right;
+}
+
+/* Menu items */
+#menu {
+	margin: 25px 0px 0px 240px;
+	padding: 0px 0px 0px 0px;
+	height:40px;
+	position:relative;
+	width:100%;
+	float:left;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align:left;
+}
+#menu ul li{
+	float:left;
+	position:relative;
+	margin-right:2px;
+	background-color: white;
+	/* transparancy for all browsers except IE */
+	opacity: 0.8;
+	/* IE */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);	
+}
+#menu ul li:hover{
+	/* transparancy for all browsers except IE */
+	opacity: 1;
+	/* IE */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);	
+}
+#menu ul li a, #menu ul li a:hover {
+	/* padding, height, width instellen */ 
+	text-decoration: none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	position:relative;
+	padding: 2px 8px 5px 8px;
+	height:20px;
+	margin:0px;
+	color:#000;
+}
+.active{
+	/* transparancy for all browsers except IE */
+	opacity: 1;
+	/* IE */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);	
+}
+
+
+/* ------------------- */
+
+/* Fonts */
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.2em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0 0 0.5em 0;
+}
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: .75em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0;
+}
+p {
+	line-height:140%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	margin:0 0 1em 0;
+}
+a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+	color:#555;
+	font-weight:bold;
+	margin:0 0 1em 0;
+}
+
+/* ------------- */
+
+
+
+
+/* Content styles */
+#main-content li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	margin:0 0 0.5em 0;
+}
+#main-content td {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+}
+#main-content table.orkesttabel{
+	border-left:1px #F00 solid;
+}
+#main-content table.orkesttabel td{
+	padding-bottom:10px;
+	padding-left:5px;	
+}
+#main-content table.partners{
+	font-size:.75em;
+}
+#main-content div.column{
+	float:left;
+	position:relative;
+}
+
+#main-content div.column20margin{
+	float:left;
+	margin-right:20px;
+	text-align:justify;
+	position:relative;
+	padding-bottom:10px;
+}
+#main-content div.column20marginR{
+	float:right;
+	margin-left:20px;
+	position:relative;
+	padding-bottom:10px;
+}
+#main-content div.column20marginArtiestenRechts{
+	float:right;
+	margin-right:20px;
+	position:relative;
+	text-align:justify;
+	padding-top:5px;
+	width:440px; 
+}
+#main-content div.column20marginArtiestenLinks{
+	float:left;
+	margin-right:20px;
+	position:relative;
+	text-align:justify;
+	padding-top:5px;
+	width:440px; 
+}
+#main-content div.column20marginFotoRechts{
+	float:right;
+	margin-right:20px;
+	position:relative;
+	text-align:justify;
+	padding-top:35px;
+	width:285px;
+	text-align:center;
+}
+#main-content div.columnFotoRechts{
+	float:right;
+	margin-left:20px;
+	position:relative;
+	text-align:justify;
+	padding-top:5px;
+	width:285px;
+	text-align:right;
+}
+#main-content div.column20marginFotoLinks{
+	float:left;
+	margin-right:20px;
+	position:relative;
+	text-align:justify;
+	padding-top:5px;
+	width:285px;
+	text-align:center; 
+}
+#main-content div.column33margin{
+	float:left;
+	margin-right:33px;
+	position:relative;
+	border-left:1px #F00 solid;
+	padding-left:5px;
+}
+#main-content div.column33margin_loc{
+	float:left;
+	margin-right:33px;
+	position:relative;
+}
+#main-content div.column33right{
+	float:left;
+	position:relative;
+	border-left:1px #F00 solid;
+	padding-left:5px;
+}
+#main-content img.left {
+	margin:0px 10px 0px 0px;
+	border:1px solid;
+	float:left;
+	position:relative;
+}
+#main-content img.right {
+	margin:0px 4px 0px 10px;
+	border:1px solid;
+	float:right;
+	position:relative;
+}
+.padding15{
+	padding-right: 15px;
+}
+.padding20{
+	padding-right: 20px;
+}
+.clear {
+	clear:both;
+	height:1px;
+}
+
+*/

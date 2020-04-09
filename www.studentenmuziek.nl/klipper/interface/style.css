@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	color: black;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-image: url(http://www.studentenmuziek.nl/klipper/interface/interface/back.jpg);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-repeat: 1;
+}
+
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 980px;
+	height: 600px;
+	margin-top: -300px; /*always take 1/2 from the size of the height, they have to be negative*/
+	;
+	margin-left:-490px; /*always take 1/2 from the size of the width, they have to be negative*/
+
+	background-image: url(http://www.studentenmuziek.nl/klipper/interface/interface/main-back.jpg)
+	z-index:1;
+	visibility: hidden;
+}
+
+#tekstframe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 460px;
+	height: 560px;
+	margin-top: -280px;
+	margin-left:10px;
+	z-index:1;
+	visibility: hidden;
+}
+
+#lelystad {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: 50px;
+	margin-left:-230px;
+	z-index:1;
+	visibility: hidden;
+}
+#stavoren {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: -100px;
+	margin-left:-250px;
+	z-index:1;
+	visibility: hidden;
+}
+#hoorn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left:-335px;
+	z-index:1;
+	visibility: hidden;
+}
+#medemblik{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: -40px;
+	margin-left:-330px;
+	z-index:1;
+	visibility: hidden;
+}
+#amsterdam {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: 110px;
+	margin-left:-380px;
+	z-index:1;
+	visibility: hidden;
+}
+#enkhuizen {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left:-290px;
+	z-index:1;
+	visibility: hidden;
+}
+
+#back {
+	position:absolute; 
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 600px;
+	margin-top: -300px;
+	margin-left:-100px;
+	z-index:1;
+	visibility: hidden;
+}
+
+#quadrivium {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 270px;
+	margin-top: -280px;
+	margin-left:-100px;
+	z-index:2;
+	visibility: hidden;
+}
+
+#symfonie {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 135px;
+	height: 80px;
+	margin-top: 300px; 
+	margin-left: -490px;
+	z-index:1;
+}
+
+#nhd {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 80px;
+	margin-top: 300px; 
+	margin-left: 85px;
+	z-index:1;
+}
+
+#welcome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 980px;
+	height: 600px;
+	margin-top: -300px; /*always take 1/2 from the size of the height, they have to be negative*/;
+	margin-left:-490px; /*always take 1/2 from the size of the width, they have to be negative*/
+	background-image: url(http://www.studentenmuziek.nl/klipper/interface/interface/intro.jpg);
+	z-index:3;
+}

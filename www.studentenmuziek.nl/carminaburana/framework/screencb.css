@@ -1,0 +1,282 @@
+/* forceer verticale scrollbar */
+html { overflow-y: scroll; }
+
+
+/* Positie van de banner */
+
+#banner{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -512px;
+	width: 1024px;
+	height: 285px;
+	z-index: 12;
+}
+
+
+#myshow1{
+	position: absolute;
+	margin-left: -25px;
+	top: -275px;
+	width: 800px;
+	height: 275px;
+	z-index:1;
+}
+
+
+
+/*Twitter feed*/
+#feed{				/*div onder menu*/
+	position: relative;
+	width: 224px;
+	height:400px;
+	z-index:5;
+	background-color:#0D0D0D;
+	padding-top:25px;
+}
+
+.twtr-ft { 			/*uitschakelen footer*/
+	display: none; 
+}
+
+
+
+.twtr-widget {
+	float: left;
+	width: 204px; /* this is important if you want to make any positioning */
+	margin: -15px 10px 0 10px;
+	padding: 0 0 0 0;
+}
+
+
+#social{            /* positie social media buttons */
+	position: absolute;
+	top: 95px;
+	left: 50%;
+	margin-left: 435px;
+	width: 100px;
+	z-index:12;
+}
+
+
+/* Positie van de menu-items */
+.menu{
+	position: absolute;
+	top: 175px;
+	left: 50%;
+	margin-left: -512px;
+	width: 224px;
+	z-index:20;
+}
+
+#menu_home #mi_home a,
+#menu_prog #mi_prog a,
+#menu_deel #mi_deel a,
+#menu_kaar #mi_kaar a,
+#menu_medi #mi_medi a,
+#menu_spon #mi_spon a,
+#menu_cont #mi_cont a,
+
+#subm_toel #si_toel a,
+#subm_diri #si_diri a,
+#subm_soli #si_soli a,
+#subm_orke #si_orke a,
+#subm_kore #si_kore a,
+
+#subm_orga #si_orga a,
+#subm_rout #si_rout a
+
+
+{
+	color: #FFF;
+	cursor: default;
+}
+
+/* Style van de lijst met links in het menu */
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+/* Style van de links afzonderlijk van het menu */
+.menu li a
+{
+	display: block;
+	text-align: left;
+	text-decoration:none;
+	height: 2em;
+	line-height: 2em;	
+}
+
+a:focus {
+    outline: 0px;
+}
+
+.submenu{
+	font-size:0.9em;
+	margin-left:10px;
+}
+
+
+
+/* Kleur van alle links */
+a
+{
+	color: #999;
+}
+
+/* Kleur van alle links als de cursor eroverheen gaat*/
+a:hover
+{
+	color: #CCC;
+}
+
+
+/* Positie van de tekst met afbeelding rechts */
+#content{
+	/*total width = width + total horizontal padding*/
+	position: absolute;
+	left: 50%;
+	margin-left: -288px;
+	top: 400px;
+	width: 760px;
+/*	overflow: auto; Waarom? geeft extra scrollbalken in Chrome */
+	padding-left:25px;
+	padding-right:15px;
+	padding-top:25px;
+	text-align: justify;
+	z-index:2;
+}
+
+
+/* Hoogte van ruimte voor afbeelding en rechtsuitlijnen */
+#content #image
+{
+	display: block;
+	margin-left: auto;
+}
+
+ol, ul /* Style van lijsten */
+{
+	list-style-type:square;
+	padding-left: 2em;
+	color:#fff;
+}
+
+/* #content div.column20margin{
+	float:left;
+	width:575px;
+	margin-right:20px;
+	position:relative;
+	padding-bottom:10px;
+}
+
+
+
+*/
+
+
+
+/* Fonts */
+
+table
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	color:#FFF;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-bottom: 1.75em;
+}
+
+
+p /* normale paragraaf tekst */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	color:#FFF;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-bottom: 1.75em;
+}
+
+h1 /* kopteksten */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.3em;
+	font-weight:normal;
+	letter-spacing: 0.11em;
+	color: #CCC;
+	margin-bottom: .8em;
+	margin-top: .2em;
+}
+h2 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.1em;
+	font-weight:normal;
+	letter-spacing: 0.1em;
+	color: #CCC;
+	margin-bottom: .5em;
+	margin-top: 3em;
+}
+
+h3 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.9em;
+	font-weight:normal;
+	letter-spacing: 0.1em;
+	color: #CCC;
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
+hr
+{
+	border: 0;
+	width: 80%;
+	color: #005CAF;
+	background-color: #005CAF;
+	height: 1px;
+}
+
+
+
+
+
+/* font voor menu items */
+.menu li, .subm a 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.9em;	
+	letter-spacing: 0.09em;
+}
+td /* font voor tekst in tabellen */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.08em;
+	vertical-align:text-top;
+}
+li /* font voor lijst items */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: .8em;	
+	letter-spacing: 0.08em;
+}
+
+</style>	
+
+
+
+
+
+
+/* IE6 hacks */
+* html,* html body   /* IE6 Fixed Position Jitter Fix */{background-image:url(about:blank);background-attachment:fixed;}
+* html #logo    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+* html .menu    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+107));}

@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style type="text/css">
+/* CoolMenus 4 - default styles - do not edit */
+.clCMAbs{position:absolute; visibility:hidden; left:0; top:0}
+/* CoolMenus 4 - default styles - end */
+  
+/*Style for the background-bar*/
+.clBar{position:absolute; width:10; height:10; background-color:Navy; layer-background-color:White; visibility:hidden}
+
+/*Styles for level 0*/
+.clLevel0,.clLevel0over{position:absolute; padding:2px; font-family:tahoma,arial,helvetica; font-size:13px; font-weight:bold}
+.clLevel0{background-color:White; layer-background-color:White; color:Black;}
+.clLevel0over{background-color:#800000; layer-background-color:#800000; color:white; cursor:pointer; cursor:hand; }
+.clLevel0border{position:absolute; visibility:hidden; background-color:#000000; layer-background-color:#000000}
+
+/*Styles for level 1*/
+.clLevel1, .clLevel1over{position:absolute; padding:2px; font-family:tahoma, arial,helvetica; font-size:12px;}
+.clLevel1{background-color:White; layer-background-color:White; color:black;}
+.clLevel1over{background-color:#800000; layer-background-color:#800000; color:white; cursor:pointer; cursor:hand; }
+.clLevel1border{position:absolute; visibility:hidden; background-color:#000000; layer-background-color:#000000}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Homepage Cinema Classics</title>
+<link rel="stylesheet" type="text/css" href="cc.css">
+<script language="JavaScript1.2" src="coolmenus4.js" type="text/javascript">
+/*****************************************************************************
+Copyright (c) 2001 Thomas Brattli (webmaster@dhtmlcentral.com)
+
+DHTML coolMenus - Get it at coolmenus.dhtmlcentral.com
+Version 4.0_beta
+This script can be used freely as long as all copyright messages are
+intact.
+
+Extra info - Coolmenus reference/help - Extra links to help files **** 
+CSS help: http://coolmenus.dhtmlcentral.com/projects/coolmenus/reference.asp?m=37
+General: http://coolmenus.dhtmlcentral.com/reference.asp?m=35
+Menu properties: http://coolmenus.dhtmlcentral.com/properties.asp?m=47
+Level properties: http://coolmenus.dhtmlcentral.com/properties.asp?m=48
+Background bar properties: http://coolmenus.dhtmlcentral.com/properties.asp?m=49
+Item properties: http://coolmenus.dhtmlcentral.com/properties.asp?m=50
+******************************************************************************/
+</script>
+</head>
+<body bgcolor="#800000" >
+<script type="text/javascript">
+/*** 
+This is the menu creation code - place it right after you body tag
+Feel free to add this to a stand-alone js file and link it to your page.
+**/
+
+//Menu object creation
+oCMenu=new makeCM("oCMenu") //Making the menu object. Argument: menuname
+
+oCMenu.frames = 0
+
+//Menu properties   
+oCMenu.pxBetween=0
+oCMenu.fromLeft=20 
+oCMenu.fromTop=0   
+oCMenu.rows=1 
+oCMenu.menuPlacement="center"
+                                                             
+oCMenu.offlineRoot="file:///C|/Inetpub/wwwroot/dhtmlcentral/projects/coolmenus/examples/" 
+oCMenu.onlineRoot="/" 
+oCMenu.resizeCheck=1 
+oCMenu.wait=1000 
+oCMenu.fillImg="cm_fill.gif"
+oCMenu.zIndex=0
+
+//Background bar properties
+oCMenu.useBar=0
+oCMenu.barWidth="100%"
+oCMenu.barHeight="menu" 
+oCMenu.barClass="clBar"
+oCMenu.barX=0 
+oCMenu.barY=0
+oCMenu.barBorderX=0
+oCMenu.barBorderY=0
+oCMenu.barBorderClass=""
+
+//Level properties - ALL properties have to be spesified in level 0
+oCMenu.level[0]=new cm_makeLevel() //Add this for each new level
+oCMenu.level[0].width=125
+oCMenu.level[0].height=23 
+oCMenu.level[0].regClass="clLevel0"
+oCMenu.level[0].overClass="clLevel0over"
+oCMenu.level[0].borderX=2
+oCMenu.level[0].borderY=2
+oCMenu.level[0].borderClass="clLevel0border"
+oCMenu.level[0].offsetX=0
+oCMenu.level[0].offsetY=0
+oCMenu.level[0].rows=0
+oCMenu.level[0].arrow=0
+oCMenu.level[0].arrowWidth=0
+oCMenu.level[0].arrowHeight=0
+oCMenu.level[0].align="bottom"
+
+//EXAMPLE SUB LEVEL[1] PROPERTIES - You have to specify the properties you want different from LEVEL[0] - If you want all items to look the same just remove this
+oCMenu.level[1]=new cm_makeLevel() //Add this for each new level (adding one to the number)
+oCMenu.level[1].width=oCMenu.level[0].width
+oCMenu.level[1].height=21
+oCMenu.level[1].regClass="clLevel1"
+oCMenu.level[1].overClass="clLevel1over"
+oCMenu.level[1].borderX=2
+oCMenu.level[1].borderY=2
+oCMenu.level[1].align="right" 
+oCMenu.level[1].offsetX=0
+oCMenu.level[1].offsetY=0
+oCMenu.level[1].borderClass="clLevel1border"
+
+/******************************************
+Menu item creation:
+myCoolMenu.makeMenu(name, parent_name, text, link, target, width, height, regImage, overImage, regClass, overClass , align, rows, nolink, onclick, onmouseover, onmouseout) 
+*************************************/
+oCMenu.makeMenu('top5','','&nbsp;&nbsp;home','http://www.studentenmuziek.nl/cinemaclassics/home.php','')
+
+
+oCMenu.makeMenu('top0','','&nbsp;&nbsp;project','http://www.studentenmuziek.nl/cinemaclassics/project.php','')
+  oCMenu.makeMenu('sub00','top0','&nbsp;omschrijving','http://www.studentenmuziek.nl/cinemaclassics/project.php','')
+    oCMenu.makeMenu('sub01','top0','&nbsp;doelstelling','http://www.studentenmuziek.nl/cinemaclassics/doelstelling.php','')
+		oCMenu.makeMenu('sub02','top0','&nbsp;organisatie','http://www.studentenmuziek.nl/cinemaclassics/organisatie.php','')
+		oCMenu.makeMenu('sub03','top0','&nbsp;orkest','http://www.studentenmuziek.nl/cinemaclassics/orkest.php','')
+		oCMenu.makeMenu('sub04','top0','&nbsp;dirigent','http://www.studentenmuziek.nl/cinemaclassics/dirigent.php','')
+
+		
+oCMenu.makeMenu('top1','','&nbsp;&nbsp;programma','http://www.studentenmuziek.nl/cinemaclassics/programma.php')
+	
+oCMenu.makeMenu('top2','','&nbsp;&nbsp;solisten','http://www.studentenmuziek.nl/cinemaclassics/solisten.php')
+	oCMenu.makeMenu('sub21','top2','&nbsp;Gerlant de Boer','http://www.studentenmuziek.nl/cinemaclassics/gerlant.php')
+	oCMenu.makeMenu('sub22','top2','&nbsp;Lars Wachelder','http://www.studentenmuziek.nl/cinemaclassics/lars.php')
+
+oCMenu.makeMenu('top3','','&nbsp;&nbsp;fotos','http://www.studentenmuziek.nl/cinemaclassics/foto.php')
+
+oCMenu.makeMenu('top4','','&nbsp;&nbsp;links','http://www.studentenmuziek.nl/cinemaclassics/links.php')
+
+//Leave this line - it constructs the menu
+oCMenu.construct()		
+
+
+
+</script>
+<center>
+<table width=780 border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="780" valign="top">
+<div align="center">
+        <center>
+        <table border="0" width="774" cellpadding="0">
+          <tr>
+            <td class="menu" width="20%" height=22 align="center">&nbsp;</td>
+            <td class="menu" width="20%" height=22 align="center">&nbsp;</td>
+            <td class="menu" width="20%" height=22 align="center">&nbsp;</td>
+            <td class="menu" width="20%" height=22 align="center">&nbsp;</td>
+            <td class="menu" width="20%" height=22 align="center">&nbsp;</td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <table border="0" width="780">
+        <tr>
+          <td width="624" valign="top" rowspan="2">
+            <table border="0" width="624">
+              <tr>
+                <td width="624" colspan="3"><img border="0" src="logocctr.GIF" width="570" alt="logo Cinema Classics">
+                </td>
+              </tr>
+              <tr>
+                <td width="194" align="left" valign="top"><img border="0" src="diristriptr.gif" alt="Dirigent en filmblik"></td>
+                <td width="416" valign="top" align="right"><p>&nbsp;</p><h2>Harmonieorkest Auletes presenteert<br>Filmmuziek concert</h2>
+                  <p>Welkom op de site van het filmmuziekproject <i>Cinema Classics</i> van Auletes, ondervereniging van ESMG Quadrivium. Op deze pagina's vind je meer informatie over dit project.<br><a href="project.php.html">Lees hier meer...</a></p>
+                  <p>Het concert heeft inmiddels plaatsgevonden en mag muzikaal zeer succesvol genoemd worden. Foto's van het concert zijn te vinden op de <a href="foto.php.html">foto-pagina</a>.</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <center>
+                  <img border="0" src="qlogo.gif" alt="Logo Quadrivium">
+                  </center>
+                </td>
+                <td width="14" valign="top" align="right">&nbsp;
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="156" valign="top" align="right" height="230">&nbsp;          
+          </td>
+        </tr>
+        <tr>
+          <td width="156" valign="bottom" align="right">
+            <p><img border="0" src="sfse.gif" alt="Logo SFSE"><br>
+            <p><a href="http://www.tue.nl" target=_blank><img border="0" src="Tue.gif" alt="Logo TU/e"></a><br>
+            <p><a href="http://www.rombouts.nl" target=_blank><img border="0" src="ROMBOUTS.gif" alt="Logo Rombouts"></a><br>
+            <p><a href="http://www.philips.nl" target=_blank><img border="0" src="philips.gif" alt="Logo Philips"></a><br>
+            <p><a href="http://www.cke.nl" target=_blank><img border="0" src="ckezw.gif" alt="Logo CKE"></a></p>
+          </td>
+        </tr>
+      </table>
+      
+  </td>
+  </tr>
+</table>
+</center>
+
+</body>
+
+</html>
+

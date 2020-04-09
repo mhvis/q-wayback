@@ -1,0 +1,13 @@
+p {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: 24px; font-weight: normal; font-variant: normal; color: #FFFFFF}
+h1 {  font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: #dedede; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none}
+body {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: 24px; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; background-color: #000000}
+A  {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; color: #FFFFFF}
+A:Visited  {color: #dedede}
+A:Active  {text-decoration: underline; color: #FFFFFF}
+A:Hover  {text-decoration : underline;
+; font-weight: bold
+; color: #FFFFFF
+}h2 {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-style: normal; line-height: 10px; font-weight: normal; font-variant: normal; color: #dedede}
+li {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal}
+table {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal}
+h3 {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: 5px; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF}

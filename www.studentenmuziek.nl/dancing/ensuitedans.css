@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main layers */
+html {
+	overflow-y: scroll;	/*forces vertical scroll bar*/
+	}
+body {
+    background-image: url(images/background.gif);
+	background-position: top center;
+	background-color: #FFFFFF;
+	}
+#container{ /*container with solid border, contains menu, columR and footer*/
+	margin-left: auto;
+	margin-right:auto;
+	width: 750px;
+	border: 3px solid #FD00BF; /*#FD00BF;*/
+	position: relative;
+	margin-top: auto;
+	background-color: #FFFFFF;
+	}	
+
+#menu { /*Contains logo and links to pages*/
+	float: left;
+	width: 145px;
+	}
+#columnR{	/*Column which contains header and main content*/
+	float: right;
+	width: 600px;
+	}
+#header{	/*Header with project title*/
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 110px;
+	}
+#main-content{	/*Content goes here*/
+	text-align: justify;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	}
+.clear{	/*for drawing correct of footer*/
+	clear:both;
+	height:1px;
+	}
+#footer {	/*Footer with sponors*/
+	height: 60px;
+	}
+
+/* Menu items */
+#menu img{
+	margin: 2px 0px 0px 3px;
+	}
+#menu ul {
+	text-align: justify;
+	list-style-type: none;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	}
+#menu ul li {
+	float: top;
+	line-height: 25px;
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px 10px;
+	}	
+#menu li a {
+	color: #FD00BF;
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+	}
+#menu li a:hover{
+	width: 105px;
+	display: inline-block;
+	background-color: #FD00BF;
+	color: #FFFFFF;
+	}
+	
+/* Main content */
+#main-content p {
+	line-height: 140%;
+	margin: 5px 10px 5px 7px;
+	}
+#main-content a{
+	color: #FD00BF;
+	text-decoration: none;
+	}
+#main-content h1{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	font-size: 150%;
+	color: #FD00BF;
+	padding: 0px;
+	margin: 0px 10px 20px 7px;
+
+	}
+#main-content h4{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	color: #FD00BF;
+	padding: 0px;
+	margin: 10px 10px 10px 5px;
+
+	}
+#main-content h5{
+	font-family: Century Gothic, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	margin: 0px 10px 5px 5px;
+	color: #FD00BF;
+	}
+
+#main-content p.sam{
+	color: #FD00BF;
+	margin: 3px 10px 0px 7px;
+	}
+#main-content p.ens{
+	color: #404040;
+	margin: 3px 10px 0px 7px;
+	}
+#main-content p.des{
+	margin: 0px 10px 3px 20px;
+	font-size: 85%;
+	}
+	
+#main-content table{
+	margin: 5px 10px 5px 7px;
+	}
+#main-content dl dt{
+	line-height: 140%;	
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	margin: 0px 10px 0px 7px;
+}
+#main-content dl dd{
+	line-height: 140%;	
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	margin: 0px 10px 0px 55px;
+}
+#main-content img{
+	margin: 5px 5px 5px 0px;
+	float: left;
+	}
+	
+	
+#footer img{	
+	margin: 0px 5px 0px 5px;
+	border-width: 0px;
+	}
+#footer a{
+	text-decoration: none;
+	border-width: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+	

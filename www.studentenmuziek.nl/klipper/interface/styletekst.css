@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ groen: 8cc63e 
+ blauw: 365484
+*/
+
+#tekst {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 420px;
+	height: auto;
+	margin: 0px;
+	z-index:1;
+}
+
+#home {
+	position: absolute;
+	left: 0px;
+/*	top: 0px; */
+	bottom: 0px; 
+	width: 420px;
+	height: auto;
+	margin: 0px ;
+	z-index:1;
+	text-align: left;
+}
+
+#noscroll {
+	position: absolute;
+	left: 0px;
+	bottom: 0px; 
+	width: 420px;
+	height: 560px;
+	margin: 0px ;
+	z-index:1;
+	text-align: left;
+	overflow:hidden;
+}
+
+#concert1-beeld {
+	position: absolute;
+	left: 0px;
+	bottom: 249px; 
+	width: 420px;
+	height: 227px;
+	margin: 0px ;
+	z-index:1;
+	overflow:hidden;
+
+}
+
+#concert1-tekst {
+	position: absolute;
+	right: 0px;
+	bottom: 249px; 
+	width: auto;
+	height: auto;
+	margin: 0px ;
+	padding:5px;
+	z-index:2;
+	overflow:hidden;
+	background-color: #FFFFFF;
+
+}
+
+#concert2-beeld {
+	position: absolute;
+	left: 0px;
+	bottom: 0px; 
+	width: 420px;
+	height: 227px;
+	margin: 0px ;
+	z-index:1;
+	overflow:hidden;
+
+}
+
+#concert2-tekst {
+	position: absolute;
+	right: 0px;
+	bottom: 0px; 
+	width: auto;
+	height: auto;
+	margin: 0px ;
+	padding:5px;
+	z-index:2;
+	overflow:hidden;
+	background-color: #FFFFFF;
+	
+
+}
+
+#sfeerbeeld {
+	position: static;
+	height: auto;
+	margin: 0px ;
+	padding-bottom:5px;
+	z-index:1;
+	overflow:hidden;
+}
+
+#sfeerbeeld-tekst {
+	position: relative;
+	top: -25px;
+	float:right;
+	width: auto; 
+	height: auto;
+	margin: 0px ;
+	padding: 5px;
+	z-index:2;
+	overflow:hidden;
+background-color: #FFFFFF 
+}
+
+.concert-tekst {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 15px;
+	font-variant: normal;
+	color: #365484;
+	margin: 0px;
+	vertical-align: text-top;
+	text-align: right;
+	text-decoration: none;
+/*	background-color: #8cc63e; */
+
+}
+
+.concert-tekst a {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 15px;
+	font-variant: normal;
+	color: #365484;
+	margin: 0px;
+	vertical-align: text-top;
+	text-align: right;
+	text-decoration: none;
+/*	background-color: #8cc63e; */
+
+}
+
+.concert-tekst a:hover {
+	color: #8cc63e;
+}
+
+
+
+html {
+	margin: 0px;
+	overflow:auto;
+}
+
+.dirigent {
+	margin-right: 10px;
+	margin-top: 5px;
+	vertical-align: text-top;
+	float:left;
+	size:auto; 
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 21px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #ffffff;
+	margin-left: 0px;
+	margin-top: 0px;
+	vertical-align: text-top;
+	text-align: left;	
+}
+
+.lot {
+	font-family: Courier New, mono-space;
+	color: #365484;
+	font-weight: bold;
+	font-size: 14px;
+		
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 21px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 0px;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 21px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+a {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 13px;
+	font-style: oblique;
+	text-decoration: underline;
+	color: #365484;
+}
+
+
+a:hover {
+	color: #FFFFFF ;
+}
+
+
+
+.welkom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #365484
+	margin-left: 0px;
+	margin-top: 0px;
+	vertical-align: text-top;
+}
+
+
+.paginahoofd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: 40px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0px;
+	vertical-align: text-top;
+	text-align: right;
+/*	background-color: #8cc63e; */
+
+}
+
+
+.subhoofd {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 22px;
+	font-style: normal;
+	text-align: right;
+	line-height: 32px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: lowercase;
+	margin-left: 0px;
+	margin-top: 0px;
+	color: #365484;
+/*	background-color: #8cc63e; */
+}
+
+.concert-aanvang {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 22px;
+	font-style: normal;
+	text-align: right;
+	line-height: 32px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: lowercase;
+	margin-left: 0px;
+	margin-top: 0px;
+	color: #FFFFFF;
+}
+
+.alineahoofd {
+	font-family: Georgia, Times New Roman, Serif;
+	font-size: 22px;
+	font-style: normal;
+	line-height: 32px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: lowercase;
+	margin-left: 0px;
+	color: #365484;
+/*	background-color: #8cc63e; */
+}

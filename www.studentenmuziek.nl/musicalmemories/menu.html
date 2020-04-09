@@ -1,0 +1,168 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_showHideLayers() { //v3.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/agenda.gif','images/commissie.gif','images/contact.gif','images/dirigent.gif','images/info_aanmelden.gif','images/kaarten_bestellen.gif','images/musical-links.gif','images/muziekstukken.gif','images/organisatie.gif','images/projectomschrijving.gif','images/sponsors.gif','images/solisten.gif')">
+<div align="left"> </div>
+<table width="800" height="120" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td width="761" background="images/topbkgrnd.jpg"> 
+      <table width="100%" border="0" height="100%" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="3" rowspan="2" align="left" valign="top">
+            <div id="logomm" style="position:absolute; width: 360; height: 120; z-index:4;"> 
+              <div align="left"><img src="images/musicalmemories.gif" width="360" height="120"></div>
+            </div> 
+          </td>
+          <td height="48" width="72">&nbsp;</td>
+          <td height="48" width="67">&nbsp;</td>
+          <td width="10" height="48">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td height="40" width="72">&nbsp;</td>
+          <td height="40" width="67">&nbsp;</td>
+          <td width="10" height="40">&nbsp;</td>
+        </tr>
+        <tr valign="middle"> 
+          <td width="382" height="17"> 
+            <div align="center"> </div>
+          </td>
+          <td height="17" width="89"> 
+            <div align="center"><a href="home.html" target="text"><img src="images/homepage.gif" width="83" height="17" name="knop_homepage" border="0" onLoad="" onClick="MM_showHideLayers('organisatie','','hide');MM_showHideLayers('contact','','hide','muzikaal','','hide','organisatie','','hide')"></a></div>
+          </td>
+          <td height="17" width="94"> 
+            <div align="center"><a href="menu.html#"><img src="images/organisatie.gif" width="88" height="17" name="knop_organisatie" border="0" onLoad="" onClick="MM_showHideLayers('organisatie','','show');MM_showHideLayers('muzikaal','','hide','organisatie','','show');MM_showHideLayers('contact','','hide','muzikaal','','hide','organisatie','','show')"></a></div>
+          </td>
+          <td height="17" width="78"> 
+            <div align="center"><a href="menu.html#"><img src="images/muzikaal.gif" width="72" height="17" onClick="MM_showHideLayers('organisatie','','hide');MM_showHideLayers('muzikaal','','show','organisatie','','hide');MM_showHideLayers('contact','','hide','muzikaal','','show','organisatie','','hide')" name="knop_muzikaal" border="0"></a></div>
+          </td>
+          <td height="17" width="67"> 
+            <div align="center"><a href="e-mail.html" target="text"><img src="images/contact.gif" width="61" height="17" name="knop_contact" onClick="MM_showHideLayers('contact','','show','muzikaal','','hide','organisatie','','hide')" border="0"></a></div>
+          </td>
+          <td height="17"> 
+            <div align="center"></div>
+          </td>
+        </tr>
+        <tr> 
+          <td width="382" height="10" bgcolor="#452b6a"><font color="#000000">&nbsp;</font></td>
+          <td height="10" colspan="4" bgcolor="#452b6a" valign="middle"> <font color="#000000">&nbsp;</font> 
+            <div id="muzikaal" style="position:absolute; width:328; height:10; z-index:2; visibility: hidden"> 
+              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr valign="bottom" align="right"> 
+                  <td width="46"> 
+                    <div align="right"><a href="dirigent.html" target="text"><img src="images/dirigent.gif" width="31" height="10" border="0"></a></div>
+                  </td>
+                  <td width="49"> 
+                    <div align="right"><a href="solisten.html" target="text"><img src="images/solisten.gif" width="34" height="10" border="0"></a></div>
+                  </td>
+                  <td width="78"> 
+                    <div align="right"><a href="muziek.html" target="text"><img src="images/muziekstukken.gif" width="63" height="10" border="0"></a></div>
+                  </td>
+                  <td width="70"> 
+                    <div align="right"><a href="muzieklinks.html" target="text"><img src="images/musical-links.gif" width="55" height="10" border="0"></a></div>
+                  </td>
+                  <td width="85"> 
+                    <div align="right">&nbsp;</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div id="organisatie" style="position:absolute; width:328px; height:10px; z-index:1; visibility: hidden"> 
+              <table width="100%" border="0" height="10" cellpadding="0" cellspacing="0">
+                <tr valign="bottom" align="right"> 
+                  <td width="101"> 
+                    <div align="right"><a href="project.html" target="text"><img src="images/projectomschrijving.gif" width="86" height="10" border="0"></a></div>
+                  </td>
+                  <td width="62"> 
+                    <div align="right"><a href="commissie.html" target="text"><img src="images/commissie.gif" width="47" height="10" border="0"></a></div>
+                  </td>
+                  <td width="56"> 
+                    <div align="right"><a href="sponsors.html" target="text"><img src="images/sponsors.gif" width="41" height="10" border="0"></a></div>
+                  </td>
+                  <td width="109"> 
+                    <div align="right">&nbsp;</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <font color="#000000"></font></td>
+          <td height="10" bgcolor="#452b6a"><font color="#000000"></font></td>
+        </tr>
+      </table>
+    </td>
+    <td width="39"><a href="http://www.esmgquadrivium.nl" target="_blank"><img src="images/esmgqlogo.gif" width="39" height="120" border="0"></a></td>
+  </tr>
+</table>
+</body>
+</html>

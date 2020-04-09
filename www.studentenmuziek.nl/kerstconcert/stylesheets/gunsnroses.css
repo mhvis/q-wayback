@@ -1,0 +1,92 @@
+body , html {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	line-height: 14pt;
+	background-color: #003300;
+	height: 100%;
+	overflow: auto;
+}
+.fulltable {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.content {
+	color: #FFFFFF;
+	padding: 12px;
+	line-height: 14pt;
+}
+.menustyle {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #AF0C03;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menustyle2 {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #AF0C03;
+	padding-left: 12px;
+	height: 24px;
+}
+.toprow {
+	background-color: #7C0000;
+}
+.toplinks {
+	padding-right: 0px;
+	padding-bottom: 6px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+.bottomrow {
+	background-color: #7C0000;
+}
+.contentscroll
+{
+  scrollbar-3dlight-color: #FFFFFF; 
+  scrollbar-arrow-color: #FFFFFF; 
+  scrollbar-base-color: #FFFFFF; 
+  scrollbar-darkshadow-color: #003300; 
+  scrollbar-face-color: #003300; 
+  scrollbar-highlight-color: #003300; 
+  scrollbar-shadow-color: #FFFFFF;
+}
+.marqueetext {
+	font-size: 18px;
+}
+.totaalprijs {
+	background-color: #000000;
+	border: 0px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ecardtextarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	border: 0px none;
+	width: 184px;
+	height: 203px;
+}
+.whiteborder {
+	border: 1px 1 #FFFFFF;
+}
+.kristeltd {
+	padding: 12px;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+}

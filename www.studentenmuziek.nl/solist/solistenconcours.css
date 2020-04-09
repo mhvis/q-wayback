@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main layers */
+html {
+     overflow-y: scroll; 
+	 }
+#container{
+	margin-left: auto;
+	margin-right:auto;
+	width: 880px;
+	background-position:center;
+	border: 1px solid black;
+	height:100%;
+	position:relative;
+	}
+#header{
+	background-image:url(images/header.jpg);
+	height: 120px;
+	background-repeat:no-repeat;
+	background-position: center;
+	}
+#main-content{
+	}
+#footer {
+	background-image:url(images/footer.png);
+	background-color:#000000;
+	height:60px;
+	background-repeat:no-repeat;
+	background-position: center;
+	}	
+/* ------------ */
+
+/* Menu items */
+#menu {
+	background-color:#000000;	
+	height:40px;
+	}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+	}
+#menu ul li {
+	float:left;
+	line-height: 40px;
+	font-family:Century Gothic, Arial, Helvetica;
+	font-weight:bold;
+	padding: 0 0.52em;
+	}	
+#menu li a {
+	color:#e60003;
+	padding: 0 0.96em;
+	text-decoration:none;
+	}
+#menu li a:hover{
+	display:block;
+	background-color:#e60003;
+	color:#000000;
+	}
+	
+/* Columns */
+#main-content div.column{
+	float:left;
+	width:157px;
+	margin:5px 5px 0 0;
+	min-height: 326px;
+	height: auto !important;
+	height: 326px;
+	}
+#main-content div.column2{
+	float:left;
+	width:647px;
+	}
+#main-content div.column2 li a{
+	color:#e60003;
+	text-decoration:none;
+	}	
+#main-content div.column2 a{
+	color:#e60003;
+	text-decoration:none;
+	}	
+.clear {
+	clear:both;
+	height:1px;
+	}
+	
+/* Fonts */
+h1{
+	font-family:Century Gothic, Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+	padding: 0;
+	margin: 20px 0 20px 5px;
+	}
+h4{
+	font-family:Century Gothic, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	margin: 0 0 0 5px;
+	}
+p {
+	line-height:140%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	margin: 5px 20px 1em 5px;
+	text-align:justify;
+	}
+table{
+	margin: 5px 20px 1em 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.75em;
+}	
+#main-content div.column img {
+	position:absolute;
+	bottom:60px;
+	}
+#main-content ul li{
+	line-height:140%;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	margin: 0 0 0 5px;
+	}
+#main-content div.column2 form{
+	font-size:.75em;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 5px 20px 1em 5px;
+	line-height:140%;
+	}	
+
+img.floatRight { 
+  float: right; 
+  margin: 8px; 
+  margin-top: 0px;
+}
+
+img.floatLeft { 
+  float: left; 
+  margin: 8px; 
+}
+
+
+	
+	
+	
+	

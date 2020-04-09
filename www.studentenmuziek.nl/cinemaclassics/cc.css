@@ -1,0 +1,26 @@
+TD {font-family: Verdana, Arial, serif; font: 13px Verdana;}
+P {font-family: Verdana, Arial, serif; font: 13px Verdana;}
+A {	font-family: Verdana, Arial, serif; color: #CE0000;	text-decoration : none;}
+BODY {	
+color: #000000;	font : 13px Verdana;	font-family : Verdana, Arial, serif;background-image: url("background2.jpg"); 
+background-repeat: repeat-y; 
+background-position: center;
+margin-top: 0;
+margin-left: 0;
+
+}
+H2 {	font-family: Verdana, Arial, serif; font-size: 18px;	font : bold 18px Verdana;  }
+H3 {	font-family: Verdana, Arial, serif; font : bold 15px Verdana;}
+HR {	color : #9C3131;}
+TABLE {	font : 13px Verdana;}
+A:VISITED {	font-family: Verdana, Arial, serif; color: #CE0000;}
+A:HOVER {	font-family: Verdana, Arial, serif; text-decoration : underline;}
+.menu {
+	font-family: Verdana, Arial, serif; font-size: 12px; font: bold 12px Verdana;
+}
+.linkzwart{
+	font-family: Verdana, Arial, serif; color: Black;
+}
+.linkzwart:VISITED{
+	color: Black;
+}

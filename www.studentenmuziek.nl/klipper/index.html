@@ -1,0 +1,80 @@
+<!-- website voor klippertournee door elise moers & bastien vievermans //-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Klippertournee 2010</title>
+
+<link href="interface/style.css" rel="stylesheet" type="text/css" />
+
+
+<!--[if lte IE 6]>
+<script type="text/javascript" src="interface/supersleight.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+
+
+</head>
+
+<body onload="MM_preloadImages('interface/intro.jpg','interface/lelystad_hover.png','interface/amsterdam_hover.png','interface/medemblik_hover.png','interface/hoorn_hover.png','interface/enkhuizen_hover.png','interface/stavoren_hover.png','interface/home_hover.jpg')">
+
+<div id="back"><img src="interface/back.jpg" alt="" width="100%" height="100%" /></div>
+<div id="welcome"><a href="index.html#"><img src="interface/intro.jpg" alt="" width="980" height="600" border="0" onclick="MM_showHideLayers('welcome','','hide','main','','show','lelystad','','show','stavoren','','show','medemblik','','show','hoorn','','show','amsterdam','','show','enkhuizen','','show','home','','show','quadrivium','','show','tekstframe','','show')"/></a></div>
+<div id="main"><img src="interface/main-back.jpg" alt="" width="980" height="600" /></div>
+
+<div id="lelystad" ><a href="lelystad.html" target="tekstframe"><img src="interface/lelystad.png" alt="" border="0" name="lelystad" width="90" height="20" onmouseover="MM_swapImage('lelystad','','interface/lelystad_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="stavoren"><a href="stavoren.html" target="tekstframe"><img src="interface/stavoren.png" alt="" border="0" name="stavoren" width="90" height="20" onmouseover="MM_swapImage('stavoren','','interface/stavoren_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="medemblik"><a href="medemblik.html" target="tekstframe"><img src="interface/medemblik.png" alt="" border="0" name="medemblik" width="90" height="20" onmouseover="MM_swapImage('medemblik','','interface/medemblik_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="hoorn"><a href="hoorn.html" target="tekstframe"><img src="interface/hoorn.png" alt="" border="0" name="hoorn" width="90" height="20" onmouseover="MM_swapImage('hoorn','','interface/hoorn_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="amsterdam"><a href="amsterdam-ahm.html" target="tekstframe"><img src="interface/amsterdam.png" alt="" border="0" name="amsterdam" width="90" height="20" onmouseover="MM_swapImage('amsterdam','','interface/amsterdam_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="enkhuizen"><a href="enkhuizen.html" target="tekstframe"><img src="interface/enkhuizen.png" alt="" border="0" name="enkhuizen" width="90" height="20" onmouseover="MM_swapImage('enkhuizen','','interface/enkhuizen_hover.png',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+
+<div id="home"><a href="home.html" target="tekstframe"><img src="interface/home.jpg" alt="" border="0" name="home" width="100" height="600" onmouseover="MM_swapImage('home','','interface/home_hover.jpg',1)" onmouseout="MM_swapImgRestore()"/></a></div>
+<div id="quadrivium"><a href="project.html" target="tekstframe"><img src="interface/quadrivium.jpg" alt="" border="0" name="quadrivium" width="30" height="270"/></a></div>
+<div id="tekstframe">
+<iframe name="tekstframe" src="home.html" height="560" width="460" allowtransparency="yes" marginheight="0" marginwidth="0" scrolling="auto" frameborder="0" vspace="0" hspace="0"></iframe> </div>
+
+<div id="symfonie"><a href="../../www.drietuconcerten.nl/index.html" target="_blank"><img src="interface/quadrivium.png" alt="" width="135" height="40" border="0"/></a></div>
+
+<div id="nhd"><a href="http://www.eindhoven.nl/" target="_blank"><img src="interface/studstad.png" alt="" width="165" height="30" border="0"/></a><a href="http://www.noordhollandsdagblad.nl/" target="_blank"><img src="interface/nhd.png" alt="" width="240" height="30" border="0"/></a></div>
+
+</body>
+</html>

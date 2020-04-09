@@ -1,0 +1,67 @@
+
+BODY 	{ background-color:#94CE33; background-attachment: fixed; font-family: Verdana, Goudy, Dutch801 Rm BT;  background-position-y : center; background-position-x : center; background-repeat: repeat-y;
+background-attachment: fixed; color: #709C25; font-size: 8pt;
+ scrollbar-arrow-color:#4EA024; scrollbar-face-color:#FFFFFF; scrollbar-highlight-color:#ECF7DB; scrollbar-3dlight-color:#E1F2C8; scrollbar-shadow-color:#ECF7DB; scrollbar-darkshadow-color:#E1F2C8; scrollbar-track-color:#FFFFFF }
+
+.main {background-color:#FFFFFF}
+.page {background-color:#FFFFFF}
+A:link	{ color: #0099FF; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; text-transform: none}
+A:visited{ color: #0099FF; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; text-transform: none}
+A:active { font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; text-transform: none}
+A:hover	{ font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; text-transform: none}
+
+
+FONT {		font-family: Verdana;
+		font-size: 8pt
+		}
+.warning	{color:#FF0000;
+		font-weight:bold
+		}
+.white		{color:#FFFFFF
+		}
+.big		{font-family: Verdana;
+		font-size: 12pt;
+		font-weight:bold;
+		color:#000000
+		}
+.big10		{font-family: Verdana;
+		font-size: 10pt;
+		color:#FFFFCC
+		}
+.auteur		{align: right;
+		font-style: italic;
+		}
+INPUT {		font-family:Verdana;
+		font-size:8pt;
+		border: 1px #000000 solid;
+		border-selected: 1px #000000 dashed;
+		height:18; 
+		}
+.field		{color:#000040;
+		background:#F3F3F3
+		}
+.button		{color:#000000;
+		background:#D4D0C8
+		}
+.but2		{color:#000000;
+		background:#C4C4FF
+		}
+OPTION		{background-color: #f3f3f3;
+		border: 1px #000000 solid
+		}
+
+TEXTAREA       	{font-family:Verdana;
+		font-size:8pt;
+		background:#F3F3F3;
+		color:#000040;
+		border: 1px #000000 solid;
+		}
+
+SELECT {	font-family:Verdana;
+		font-size:8pt;
+		background:#F3F3F3;
+		color:#000040;
+		border: 1px #000000 solid;
+		height:18; 
+		size:20
+		}

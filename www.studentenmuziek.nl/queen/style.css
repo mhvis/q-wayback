@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.8em;
+}
+
+div#topbar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 111px;
+    width: 787px;
+    background-image: url("images/header.gif");
+}
+
+div#quadriviumlogo {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 450px;
+    height: 125px;
+    background-image: url("images/quadrivium.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+div#quadriviumlogo h2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+div#qslogo {
+    position: absolute;
+    top: 125px;
+    left: 290px;
+    width: 396px;
+    height: 280px;
+    background-image: url("images/queensymphony.gif");
+}
+
+div#sidebar {
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    width: 210px;
+    padding: 10px;
+}
+
+div#sidebar a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+div#sidebar img {
+    margin-bottom: 30px;
+}
+
+div#main {
+    position: fixed;
+    left: 230px;
+    overflow: auto;
+    top: 120px;
+    bottom: 120px;
+    right: 0px;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+div#bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 667px;
+    height: 324px;
+    background-image: url("images/bottomleft.jpg");
+}
+
+div#topleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 247px;
+    height: 277px;
+    background-image: url("images/topleft.jpg");
+}
+
+div#datetime {
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    height: 100px;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+div#datetime2 {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    right: 100px;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+a {
+    color: #9E04A2;
+    text-decoration: none;
+}
+
+th {
+    text-align: left;
+    color: #C0C0C0;
+}
+
+input.text, select {
+    width: 220px;
+}
+
+input.button {
+    width: auto;
+    margin-left: 50px;
+}
+
+.error {
+    color: red;
+}
+
+* html div#main {
+    position: absolute;
+    height: expression( (document.body.clientHeight - 240) + 'px' );
+    left: 230px;
+    overflow: auto;
+    overflow-x: hidden;
+    top: 120px;
+    bottom: 120px;
+    padding: 25px;
+    padding-right: 50px;
+}
+
+img {
+    border: 0;
+    margin: 8px;
+}

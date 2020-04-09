@@ -1,0 +1,158 @@
+/* CSS Document */
+/*copyright (c) Jasper Achten, Big Bang Showproductions 2007. Alle rechten voorbehouden.*/
+
+	body {
+		font-family : Verdana, Arial, Helvetica, sans-serif;
+		font-size : 14px;
+		background-image: url('bg.gif');
+		background-repeat:repeat;
+		background-position:center;
+		}
+
+	html, body {
+/*		height: 100%; */
+		margin: 0px 0px 0px 0px;
+		padding: 0px;
+		border: 0px;
+		}
+	
+/*layout div's*/
+
+	#container {
+		background-image: url('containerbg.gif');
+		width:800px;
+		height:600px;
+		margin: 0 auto 0 auto;
+		margin-top:30px;
+		text-align: left;
+		padding:0px;
+	} 
+	
+	#container2 {
+		width:750px;
+		margin-left:25px;
+		border:0px;
+		padding:0px;
+	} 
+	
+	#menu {
+		width:250px;
+		height:518px;
+		color:#FFFFFF;
+		text-align:left;
+		float:left;
+		overflow:hidden;
+		}
+	
+	#content_container {
+		color:#000000;
+		width:475px;
+		height:518px;
+		float:right;
+		overflow:auto;
+		}
+		
+		
+	#header {
+		height:82px;
+		width:750px;
+		margin-left:25px;
+		}
+
+
+/* Clearing div */
+	div.clear {
+		clear:both;
+		height:0px;
+		}
+
+	div.clear hr {
+		display:none;
+		}
+
+/* Links */
+	a {
+		text-decoration:underline;
+		}
+		
+	a:link {
+		color:#000000;
+		}
+		
+	a:visited {
+		color:#000000;
+		}
+		
+	a:active {
+		color:#333333;
+		}
+		
+	a:hover {
+		color:#333333;
+		}
+
+	a.menu {
+		padding-left:4px;
+		/*padding-left:12px;*/
+		padding-top:2px;
+		padding-bottom:2px;
+		font-weight:bold;
+		text-decoration:none;
+		}
+		
+	a.menu:link {
+		color:#FFFFFF;
+		}
+		
+	a.menu:visited {
+		color:#FFFFFF;
+		}
+		
+	a.menu:active {
+		color:#F4A546;
+		}
+		
+	a.menu:hover {
+		color:#F4A546;
+		}
+		
+/*images*/
+	
+	img {
+		border:0px;
+		margin:0px;
+		padding:0px;
+		}
+
+	img.links {
+		float:left;
+		border:0px;
+		margin:3px;
+		padding:0px;
+		}
+
+	img.rechts {
+		float:right;
+		border:0px;
+		margin:3px;
+		padding:0px;
+		}
+
+/*teksten*/
+	h1 {
+		font-size:18px;
+		font-weight:bold;
+		text-decoration:none;
+		margin-top:14px;
+		}
+
+	h2 {
+		font-size:14px;
+		font-weight:bold;
+		text-decoration:none;
+		}
+/*opsomming*/
+	ul {
+		margin-top:2px;
+		list-style-type:square;
+		}
