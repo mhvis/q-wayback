@@ -13,7 +13,13 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/)
 * [Lustrumboek 1999](./www.esmgquadrivium.nl/lubo/)
 
+#### Concert announcement websites
 
+* [16 mei 2013: workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/)
+* [16 maart 2013: Carmina Burana (Auletes)](./www.studentenmuziek.nl/carminaburana.html)
+* [18 april 2009: Divinity (Auletes)](./www.studentenmuziek.nl/divinity.html)
+* [6 maart 2009: Dancing on the G-string (Ensuite+Sambuca)](./www.studentenmuziek.nl/dancing/index.html)
+* ...
 
 ## Former members login
 
