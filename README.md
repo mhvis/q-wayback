@@ -11,7 +11,7 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 
 * [Former main website](./www.esmgquadrivium.nl/index.html)
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
-* [Lustrumboek 1999](./www.esmgquadrivium.nl/lubo/index.html)
+* [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
 #### Concert announcement websites
 
