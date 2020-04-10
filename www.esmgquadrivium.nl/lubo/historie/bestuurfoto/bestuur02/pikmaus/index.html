@@ -76,9 +76,13 @@
 
 Je bent aanbeland in de pik van Maus. Gebruik onderstaande knop om nog verder naar binnen te gaan.....<br><br>
 
-<form method="POST" action="index1.html">
+<form method="GET" action="index1.html">
 <p><font size="2" face="Arial"><input type="submit" value="dikke snikkel"></font>
-<a href="index1.html">.</a> <!-- <- Maarten was here in 2020, fix for scraper (we surely don't want the scraper to miss this..) -->
+<!--
+<a href="index1.html">.</a>
+Maarten was here in 2020, added 'a' tag for scraper (we surely don't want the scraper to skip this..).
+Also, later edit: changed POST to GET, POST doesn't work on static site hosts.
+-->
 </p>
 </form>
 
