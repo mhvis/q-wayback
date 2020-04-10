@@ -9,13 +9,13 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 
 ## Start somewhere
 
-* [Former main website](./www.esmgquadrivium.nl/)
-* [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/)
-* [Lustrumboek 1999](./www.esmgquadrivium.nl/lubo/)
+* [Former main website](./www.esmgquadrivium.nl/index.html)
+* [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
+* [Lustrumboek 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
 #### Concert announcement websites
 
-* [16 mei 2013: workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/)
+* [16 mei 2013: workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/index.html)
 * [16 maart 2013: Carmina Burana (Auletes)](./www.studentenmuziek.nl/carminaburana.html)
 * [18 april 2009: Divinity (Auletes)](./www.studentenmuziek.nl/divinity.html)
 * [6 maart 2009: Dancing on the G-string (Ensuite+Sambuca)](./www.studentenmuziek.nl/dancing/index.html)
