@@ -1,11 +1,6 @@
 # Q web archive
 
-This is an archive of Quadrivium sites that are not in use anymore.
-All sites are stored in HTML format, dynamic websites that used PHP have been converted to HTML.
-For any issues or comments visit the [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages)
-or contact me or any other Q secretary directly. Contact info is on my GitHub profile.
-
-— Maarten, April 2020
+Browse through old Quadrivium websites.
 
 ## Start somewhere
 
@@ -13,7 +8,7 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
 * [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
-## Concert/event websites
+## Concert or event websites
 
 * [16 mei 2013: workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/index.html)
 * [16 maart 2013: Carmina Burana (Auletes)](./www.studentenmuziek.nl/carminaburana.html)
@@ -23,10 +18,14 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 
 ## Members area
 
-The former members area contains stuff like Pressto's and GMM documents.
-It has also been archived but it is not accessible here.
-To access it you can contact me or possibly other (former) board members as well.
+The former members area in the main website contains stuff like Presstos and GMM documents,
+the archived version of this is accessible upon request.
 
+## About
+
+All websites are stored in HTML format, dynamic websites that were written in PHP have been converted to HTML.
+For any issues or comments visit the [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages)
+or contact me or another Q secretary directly. Contact info is on my GitHub profile.
 
 ## Todo
 
