@@ -2,7 +2,7 @@
 
 This is an archive of Quadrivium sites that are not in use anymore.
 All sites are stored in HTML format, dynamic websites that used PHP have been converted to HTML.
-For any issues or comments visit the [GitHub :octocat: repository](https://github.com/mhvis/q-wayback/tree/gh-pages)
+For any issues or comments visit the [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages)
 or contact me or any other Q secretary directly. Contact info is on my GitHub profile.
 
 — Maarten, April 2020
