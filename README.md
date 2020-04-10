@@ -13,7 +13,7 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
 * [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
-#### Concert announcement websites
+## Concert/event websites
 
 * [16 mei 2013: workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/index.html)
 * [16 maart 2013: Carmina Burana (Auletes)](./www.studentenmuziek.nl/carminaburana.html)
@@ -21,7 +21,7 @@ or contact me or any other Q secretary directly. Contact info is on my GitHub pr
 * [6 maart 2009: Dancing on the G-string (Ensuite+Sambuca)](./www.studentenmuziek.nl/dancing/index.html)
 * ...
 
-## Former members login
+## Members area
 
 The former members area contains stuff like Pressto's and GMM documents.
 It has also been archived but it is not accessible here.
