@@ -1,0 +1,27 @@
+.stickytooltip{
+display:none;
+position:absolute;
+display:none;
+border:1px solid white; /*Border around tooltip*/
+background-color:#000;
+z-index:3000;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:black;
+color:white;
+padding-top:0px;
+text-align:center;
+font:bold 11px Arial;
+}
+
+#sticky1
+{
+	color:white;	
+	} 
+	
+#sticky3
+{
+	color:white;	
+	} 

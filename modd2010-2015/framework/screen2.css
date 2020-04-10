@@ -1,0 +1,1320 @@
+/* forceer verticale scrollbar */
+html { overflow-y: scroll; }
+
+
+/* Positie van de banner/het logo */
+#logo{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -512px;
+	width: 1025px;
+	height: 275px;
+	z-index: 11;
+	/*background-image:url(/framework/afbeeldingen/logobg.png);*/
+	
+}
+
+
+#fullbg { 
+  	position: fixed; 
+  	margin: 0; 
+  	padding: 0; 
+ 	left:50%;
+	margin-left: -462px;
+	width:925px;
+  	top: 0; 
+  	bottom: 0;
+  	overflow: hidden; /* or auto or scroll */ 
+  	background-color:#FFFFFF;
+	opacity:0.9;
+	filter: alpha(opacity=90); /*IE 6 en 7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";	/*IE 8*/
+	
+} 
+
+
+#twitter{
+	position: absolute;
+	top: 333px;
+	left: 50%;
+	margin-left: -500px;
+	width: 292px;
+	z-index:550;	
+}
+
+#social{
+	position: absolute;
+	top: 55px;
+	left: 50%;
+	margin-left: -525px;
+	width: 100px;
+	
+	z-index:12;
+	/* background-image:url(/framework/afbeeldingen/bannerbg.png);*/
+}
+
+#social2{
+	position: absolute;
+	top: 530px;
+	left: 50%;
+	text-align:right;
+	/*margin-left: -450px;*/
+	margin-left: -425px;
+	width: 150px;
+	
+	z-index:999;
+}
+
+.twtr-ft { 			/*uitschakelen footer*/
+	display: none; 
+}
+
+#languagebutton{
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	margin-left: -450px;
+	width: 100px;
+	z-index:12;
+}
+
+
+#googleMap{
+	position: relative;
+	width:600px;
+	height:400px;
+}
+
+
+#se {
+	font-family: Georgia, serif;
+	font-size: 120%;
+}
+
+/* Positie van de menu-items */
+.menu{
+	position: absolute;
+	top: 290px;
+	left: 50%;
+	margin-left: -475px;
+	width: 200px;
+	z-index:400;
+}
+
+#menu_home #mi_home a,
+#menu_fest #mi_fest a,
+#menu_deel #mi_deel a,
+#menu_prog #mi_prog a,
+#menu_prog11 #mi_prog11 a,
+#menu_prog12 #mi_prog12 a,
+#menu_prog13 #mi_prog13 a,
+#menu_prog14 #mi_prog14 a,
+#menu_bezo #mi_bezo a,
+#menu_vrij #mi_vrij a,
+#menu_impr #mi_impr a, 
+#menu_same #mi_same a, 
+#menu_vrie #mi_vrie a, 
+#menu_cont #mi_cont a
+
+{
+	color: #E57830;
+	cursor: default;
+}
+
+#subm_idee #si_idee a,
+#subm_doel #si_doel a,
+#subm_orga #si_orga a,
+#subm_vrij #si_vrij a,
+#subm_edit #si_edit a,
+
+#subm_vrij #si_vrij a,
+#subm_aanm #si_aanm a,
+
+#subm_dagi #si_dagi a,
+#subm_hoof #si_hoof a,
+#subm_ense #si_ense a,
+#subm_acti #si_acti a,
+
+#subm_vrij #si_vrij a,
+#subm_zate #si_zate a,
+#subm_zond #si_zond a,
+#subm_work #si_work a,
+
+#subm_inhp #si_inhp a,
+#subm_inen #si_inen a,
+#subm_inzo #si_inzo a,
+
+#subm_terr #si_terr a,
+#subm_bere #si_bere a,
+#subm_podi #si_podi a,
+#subm_cate #si_cate a,
+
+
+#subm_nieu #si_nieu a,
+#subm_inde #si_inde a,
+#subm_onli #si_onli a,
+#subm_foto #si_foto a,
+
+#subm_onze #si_onze a,
+#subm_part #si_part a,
+#subm_comi #si_comi a,
+#subm_arra #si_arra a,
+
+#subm_alge #si_alge a,
+#subm_pers #si_pers a
+
+{
+	color: #E57830;
+	cursor: default;
+}
+
+.logos
+{
+	text-align: center;
+}
+
+.logos img
+{
+	padding: 10px;
+	
+}
+
+/* Style van de lijst met links in het menu */
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0px;
+}
+
+/* Style van de links afzonderlijk van het menu */
+.menu li a
+{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	height: 2em;
+	line-height: 2em;	
+}
+
+/* Positie van het plaatje onder het menu */
+.menu img{
+margin-left: 35px;
+z-index:400;
+}
+
+/* Style van het submenu rechts van het logo */
+.subm{
+	position: absolute;
+	left: 50%;
+	margin-left: -165px;
+	width: 390px;
+	height:49px;
+	top:215px;
+	text-align: justify;
+	z-index: 115;
+	padding-top:25px;
+	/*padding-left:15px;*/
+	/*background-image:url(/framework/afbeeldingen/bgmenu.png);*/
+	/*background-repeat:no-repeat;*/
+}
+
+/* Style van de links in het submenu */
+.subm a{
+	text-decoration: none;
+}
+
+/* Style van de laatste span in het submenu om justify te laten werken */
+.subm span.finish
+{
+	
+	display:inline-block;
+	width: 100%;
+}
+
+
+/* Kleur van alle links */
+a
+{
+	color: #005CAF;
+}
+
+/* Kleur van alle links als de cursor eroverheen gaat*/
+a:hover
+{
+	color: #000E57
+}
+
+
+/* Positie van de tekst met afbeelding rechts */
+#content{
+	position: absolute;
+	left: 50%;
+	margin-left: -225px; 
+	width: 600px;
+	top: 295px;
+/*	overflow: auto; Waarom? geeft extra scrollbalken in Chrome */
+	/*padding-right: 5px;*/
+	text-align: justify;
+	z-index:350;
+}
+
+#firstpage{
+	padding-left: 110px;
+	margin-top: -20px;	
+}
+
+
+/* Hoogte van ruimte voor afbeelding en rechtsuitlijnen */
+#content #image
+{
+	display: block;
+	margin-left: auto;
+}
+
+ol, ul /* Style van lijsten */
+{
+	padding-left: 1em;
+}
+
+#content div.column20margin{
+	float:left;
+	width:575px;
+	margin-right:20px;
+	position:relative;
+	padding-bottom:10px;
+}
+
+#content div.foto20margin{
+	float:left;
+	margin-right:20px;
+	margin-top:5px;
+	text-align:justify;
+	position:relative;
+	padding-bottom:10px;
+}
+
+#content div.foto20marginR{
+	float:right;
+	margin-right:20px;
+	margin-top:5px;
+	text-align:justify;
+	position:relative;
+	padding-bottom:10px;
+}
+
+/*  SLIDES */
+
+#container {
+	width:366px;
+	padding:10px;
+	margin:0 auto;
+	top:75px;
+	left: 50%;
+	margin-left: -165px; 
+	position:relative;
+	z-index:50;
+}
+
+#container2 {
+	width:580px;
+	position:relative;
+	z-index:50;
+}
+
+
+#example {
+	width:600px;
+	height:350px;
+	position:relative;
+}
+
+
+
+#ribbonleft {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:90;
+}
+
+#ribbonright {
+	position:absolute;
+	top:-3px;
+	right:8px;
+	z-index:90;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:80;
+}
+
+#slides_two {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:80;
+}
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#slides .slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+#slides_two .slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+
+#slides_two .slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides_two .next,#slides_two .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+#slides_two .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:1px auto 0;
+	width:160px;	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(afbeeldingen/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
+/* sponsors */
+
+#sponsors_container{
+	z-index:12;
+	width:600px;
+	height:1650px;
+}
+
+
+#sponsors_container div.sponsors_hoofdsponsor{
+	float:left;
+	position:relative;
+	width:600px;
+}
+
+#sponsors_container div.sponsor_groot{
+	float:left;
+	position:relative;
+	width:600px;
+}
+
+#sponsors_container div.sponsor_klein{
+	float:left;
+	position:relative;
+	width:600px;
+}
+
+#sponsors_container div.sponsor_subsidient{
+	float:left;
+	position:relative;
+	width:600px;
+}
+
+#sponsors_container div.sponsor_partner{
+	float:left;
+	position:relative;
+	width:600px;
+}
+
+#sponsors_container div.sponsor_title{
+	float:left;
+	position:relative;
+	margin-left:5px;
+	margin-top:0px;
+	width:600px;
+}
+
+#sponsors_container div.hoofdsponsor_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	padding-top:5px;
+	width:586px;
+	height:120px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FFF;
+}
+
+#hoofdsponsorlogo{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	max-width:484px;	
+	max-heigth:110px;
+	border:none;
+}
+
+#sponsors_container div.sponsor_groot_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	width:286px;
+	height:120px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FFF;
+}
+
+#sponsorlogo_groot{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	max-width:244px;
+	max-heigth:110px;
+	border:none;
+}
+
+
+#sponsors_container div.sponsor_klein_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	width:186px;
+	height:120px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FFF;
+}
+
+
+#sponsorlogo_klein{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	max-width:154px;
+	max-heigth:110px;
+	border:none;
+}
+
+
+#sponsors_container div.sponsor_subsidient_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	width:186px;
+	height:120px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FFF;
+}
+
+#subsidientlogo{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	max-width:154px;	
+	max-heigth:110px;
+	border:none;
+}
+
+#sponsors_container div.sponsor_partner_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	width:136px;
+	height:120px;
+	background-color:#FFF;
+	text-align:center;
+	color:#FFF;
+}
+
+#partnerlogo{
+position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	max-width:114px;	
+	max-heigth:110px;
+	border:none;
+}
+
+#sponsors_container div.sponsor_supporter_item{
+	float:left;
+	position:relative;
+	border:2px #E57830 dashed;
+	margin: 0px 5px 10px 5px;
+	padding: 20px 0px 20px 0px;
+	width:586px;
+	background-color:#FFF;
+	text-align:center;
+	color:#000;
+}
+
+#sponsors_container div.sponsors_supporter_cat{
+	float:left;
+	position:relative;
+	margin-right:10px;
+	width:290px;
+	text-align:right;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+}
+
+#sponsors_container div.sponsors_supporter_naam{
+	float:left;
+	position:relative;
+	width:250px;
+	text-align:left;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-left: 2em;
+
+}
+/* einde sponsors */
+
+
+
+
+
+
+
+
+/* programma 2013*/
+
+#programma_container{
+	z-index:12;
+	width:650px;
+	/*height:1680px;*/
+}
+
+
+#programma_container div.programma_box{
+	float:left;
+	margin-right:0px;
+	position:relative;
+	border-left:1px #E57830 solid;
+	padding-left:5px;
+	width:650px;   /* ----->>>>> voor 3 kolommen incl wakpodium*/
+	/* width:310px;	*/	 /* ----->>>>> voor 2 kolommen zonder wakpodium*/
+	/*height:1680px;*/
+	text-align:center;
+}
+
+#programma_container div.programma_kolom_hoofd{
+	float:left;
+	text-align:center;
+	margin-right:0px;
+	position:relative;
+	padding-left:0px;
+	width:300px;
+}
+
+#programma_container div.programma_kolom_neven{
+	float:left;
+	text-align:center;
+	margin-right:0px;
+	position:relative;
+	padding-left:0px;
+	width:150px;
+}
+
+
+/*programma 2012*/
+
+
+#programma_container div.programma_kolom_titel{
+	float:left;
+	text-align:center;
+	margin-right:0px;
+	position:relative;
+	padding-left:0px;
+	width:150px;
+}
+#programma_container div.programma_zaterdag{
+	float:left;
+	margin-right:0px;
+	position:relative;
+	border-left:1px #E57830 solid;
+	padding-left:5px;
+	width:460px;   /* ----->>>>> voor 3 kolommen incl wakpodium*/
+	/* width:310px;	*/	 /* ----->>>>> voor 2 kolommen zonder wakpodium*/
+	height:1680px;
+	text-align:center;
+}
+
+#programma_container div.programma_zondag{
+	float:left;
+	margin-right:0px;
+	position:relative;
+	border-left:1px #E57830 solid;
+	border-right:1px #E57830 solid;
+	padding-left:10px;
+	width:165px;
+	height:1680px;
+	text-align:center;
+}
+/*einde 2012*/
+
+
+#programma_container div.programma_workblok15{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 dashed;
+	padding-left:0px;
+	width:140px;
+	height:34px;    
+	background-color: #ADCFF8;
+	text-align:left;
+}
+
+#programma_container div.programma_workblok20{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 dashed;
+	padding-left:0px;
+	width:140px;
+	height:44px; /*aantal min *2.4 minus 2x2*/
+	background-color: #ADCFF8;
+	text-align:left;
+}
+
+
+#programma_container div.programma_blok25{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:56px;
+	background-color: #438CB7;
+	text-align:left;
+}
+#programma_container div.programma_workblok25{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 dashed;
+	padding-left:0px;
+	width:140px;
+	height:56px;
+	background-color: #ADCFF8;
+	text-align:left;
+}
+
+#programma_container div.programma_blok30{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:68px;
+	background-color: #438CB7;
+	text-align:left;
+}
+
+#programma_container div.programma_hoofdblok35{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:285px;
+	height:80px;
+	background-color: #438CB7;
+	text-align:left;
+}
+
+#programma_container div.programma_blok35{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:80px;
+	background-color: #438CB7;
+	text-align:left;
+}
+
+
+#programma_container div.programma_hoofdblok40{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:285px;
+	height:92px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_blok40{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:92px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_hoofdblok45{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:285px;
+	height:104px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_blok45{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:104px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_blok60{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:140px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_hoofdblok60{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:285px;
+	height:140px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_workblok60{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 dashed;
+	padding-left:0px;
+	width:140px;
+	height:140px;
+	background-color:#ADCFF8;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_blok75{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:176px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_hoofdblok90{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:285px;
+	height:212px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_blok105{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border:2px #438CB7 solid;
+	padding-left:0px;
+	width:140px;
+	height:248px;
+	background-color: #438CB7;
+	text-align:left;
+	color:#FFF;
+}
+
+#programma_container div.programma_hoofdblok35:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_hoofdblok40:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_hoofdblok45:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_hoofdblok60:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_hoofdblok90:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_workblok15:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_workblok20:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_workblok25:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok25:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok30:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok35:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok40:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok45:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok60:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_workblok60:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok75:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+#programma_container div.programma_blok105:hover{
+	background-color:#FFF;
+	border:2px #E57830 dashed;
+}
+
+
+
+
+#programma_container div.programma_blok10_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:24px;
+}
+
+#programma_container div.programma_blok15_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:36px;
+}
+
+#programma_container div.programma_blok20_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:48px;
+}
+
+#programma_container div.programma_blok30_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:72px;
+}
+
+#programma_container div.programma_blok35_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:84px;
+}
+
+#programma_container div.programma_blok40_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:96px;
+}
+
+#programma_container div.programma_blok45_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:108px;
+}
+
+
+#programma_container div.programma_blok50_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:120px;
+}
+
+#programma_container div.programma_blok55_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:132px;
+}
+
+#programma_container div.programma_blok60_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:144px;
+}
+
+#programma_container div.programma_blok75_leeg{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	border-left:0px #F00 solid;
+	padding-left:0px;
+	width:144px;
+	height:180px;
+}
+
+#programma_container div.tijd /*tijden programma*/ 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+		font-style:italic;
+	letter-spacing: 0.1em;
+	color: #000;
+	margin-top:1em;
+	margin-left: 10px;
+}
+
+#programma_container div.tekst /*tekst programma*/ 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.7em;
+
+	color: #000;
+	margin-left: 10px;
+}
+
+/* einde programma 2013*/
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+
+p /* normale paragraaf tekst */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-bottom: 1.75em;
+}
+
+h1 /* kopteksten */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.1em;
+	letter-spacing: 0.11em;
+	color: #E57830;
+	margin-bottom: .8em;
+	margin-top: .2em;
+}
+h2 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.0em;
+	letter-spacing: 0.1em;
+	color: #E57830;
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
+h3 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	color: #000E57;
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
+
+
+h2.foto
+{
+	margin-bottom: 0.4em;
+}
+
+hr
+{
+	border: 0;
+	width: 80%;
+	color: #005CAF;
+	background-color: #005CAF;
+	height: 1px;
+}
+
+
+/* font voor menu items */
+.menu li, .subm a 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.9em;	
+	letter-spacing: 0.09em;
+}
+td /* font voor tekst in tabellen */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.08em;
+	vertical-align:text-top;
+}
+li /* font voor lijst items */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: .8em;	
+	letter-spacing: 0.08em;
+}
+
+</style>	
+
+
+
+
+
+
+/* IE6 hacks */
+* html,* html body   /* IE6 Fixed Position Jitter Fix */{background-image:url(about:blank);background-attachment:fixed;}
+* html #logo    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+* html .menu    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+107));}

@@ -1,0 +1,236 @@
+/* forceer verticale scrollbar */
+html { overflow-y: scroll; }
+
+/* Positie van de banner/het logo */
+#logo{
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -260px;
+	width: 300px;
+	height: 100%;
+	background-image:url(../../framework/afbeeldingen/bannerbg.png);
+}
+
+#se {
+	font-family: Georgia, serif;
+	font-size: 120%;
+}
+
+/* Positie van de menu-items */
+.menu{
+	position: fixed;
+	top: 94px;
+	left: 50%;
+	margin-left: -480px;
+	width: 200px;
+	height: 100%;
+}
+
+#menu_home #mi_home a,
+#menu_fest #mi_fest a,
+#menu_prog #mi_prog a,
+#menu_bezo #mi_bezo a,
+#menu_medi #mi_medi a, 
+#menu_same #mi_same a, 
+#menu_quad #mi_quad a, 
+#menu_cont #mi_cont a,
+
+#subm_idee #si_idee a,
+#subm_doel #si_doel a,
+#subm_orga #si_orga a,
+#subm_brai #si_brai a,
+
+#subm_dagi #si_dagi a,
+#subm_hoof #si_hoof a,
+#subm_ense #si_ense a,
+#subm_acti #si_acti a,
+
+#subm_terr #si_terr a,
+#subm_bere #si_bere a,
+#subm_podi #si_podi a,
+
+#subm_nieu #si_nieu a,
+#subm_inde #si_inde a,
+#subm_onli #si_onli a,
+#subm_foto #si_foto a,
+#subm_pers #si_pers a,
+
+#subm_onze #si_onze a,
+#subm_part #si_part a,
+#subm_comi #si_comi a,
+#subm_arra #si_arra a,
+
+#subm_vere #si_vere a,
+#subm_lust #si_lust a,
+#subm_acti #si_acti a
+
+{
+	color: #E57830;
+	cursor: default;
+}
+
+.logos
+{
+	text-align: center;
+}
+
+.logos img
+{
+	padding: 10px;
+	
+}
+
+/* Style van de lijst met links in het menu */
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0px;
+}
+
+/* Style van de links afzonderlijk van het menu */
+.menu li a
+{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	height: 2em;
+	line-height: 2em;	
+}
+
+/* Positie van het plaatje onder het menu */
+.menu img{
+/*	margin-top: 50px; */
+}
+
+/* Style van het submenu rechts van het logo */
+.subm{
+	position: absolute;
+	left: 50%;
+	margin-left: 60px;
+	width: 420px;
+	top:205px;
+	text-align: justify;
+	z-index: 10;
+}
+
+/* Style van de links in het submenu */
+.subm a{
+	text-decoration: none;
+}
+
+/* Style van de laatste span in het submenu om justify te laten werken */
+.subm span.finish
+{
+	display:inline-block;
+	width: 100%;
+}
+
+
+/* Kleur van alle links */
+a
+{
+	color: #005CAF;
+}
+
+/* Kleur van alle links als de cursor eroverheen gaat*/
+a:hover
+{
+	color: #000E57
+}
+
+
+/* Positie van de tekst met afbeelding rechts */
+#content{
+	position: absolute;
+	left: 50%;
+	margin-left: 60px; 
+	width: 420px;
+	top: 217px;
+/*	overflow: auto; Waarom? geeft extra scrollbalken in Chrome */
+	padding-right: 5px;
+	text-align: justify;
+}
+
+/* Hoogte van ruimte voor afbeelding en rechtsuitlijnen */
+#content #image
+{
+	display: block;
+	margin-left: auto;
+}
+
+ol, ul /* Style van lijsten */
+{
+	padding-left: 1em;
+}
+
+
+/* Fonts */
+
+p /* normale paragraaf tekst */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-bottom: 1.75em;
+}
+
+h1 /* kopteksten */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.1em;
+	letter-spacing: 0.11em;
+	color: #E57830;
+	margin-bottom: 1em;
+}
+h2 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.0em;
+	letter-spacing: 0.1em;
+	color: #E57830;
+	margin-bottom: 0em;
+}
+
+h2.foto
+{
+	margin-bottom: 0.4em;
+}
+
+hr
+{
+	border: 0;
+	width: 80%;
+	color: #005CAF;
+	background-color: #005CAF;
+	height: 1px;
+}
+
+
+/* font voor menu items */
+.menu li, .subm a 
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.9em;	
+	letter-spacing: 0.09em;
+}
+td /* font voor tekst in tabellen */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 0.08em;
+}
+li /* font voor lijst items */
+{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 0.8em;	
+	letter-spacing: 0.08em;
+}
+
+
+/* IE6 hacks */
+* html,* html body   /* IE6 Fixed Position Jitter Fix */{background-image:url(about:blank);background-attachment:fixed;}
+* html #logo    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+* html .menu    /* IE6 position fixed Top        */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+107));}

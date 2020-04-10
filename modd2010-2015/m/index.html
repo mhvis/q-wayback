@@ -1,0 +1,232 @@
+<!-- 
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Muziek op de Dommel</title>
+		<link rel="stylesheet" href="themes/ModDmob.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+        <link href="../framework/screen2.css" rel="stylesheet" type="text/css" />
+        
+<!-- toggle script--> 
+<script type="text/javascript">
+	function toggleshow(which){
+	if (!document.getElementById)
+	return
+	if (which.style.display=="block")
+	which.style.display="none"
+	else
+	which.style.display="block"
+	}
+</script>
+<!-- end toggle script-->  
+        
+        
+	</head>
+	<body>
+		
+<div data-role="page" data-theme="a" id="home">
+<div data-role="header" data-position="inline">
+				
+				<h1></h1>              
+			</div>
+            
+            
+<div id="banner1"><img src="themes/images/banner.png"></div>
+<h2 id="banner"></h2>
+    <div data-role="content" style="z-index:999">
+    <ul data-role="listview" data-inset="true">
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="../m.html#prog">Programma</a></li>
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" rel="external" href="programma/zaterdag/workshops.php.html">Workshops</a></li>
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="../m.html#plat">Plattegrond</a></li>
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="../m.html#down">Download de app!</a></li>
+    </ul>
+ 
+     <ul data-role="listview" data-inset="true">  
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" rel="external" href="sponsoren.html">Sponsoren</a></li>
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" href="../m.html#cont">Contact en route</a></li>
+     
+    </ul>
+    <ul data-role="listview" data-inset="true">
+      <li><a class="ui-btn-a ui-btn ui-btn-icon-right ui-icon-carat-r" rel="external"  href="../index_full.php.html">Volledige website</a> </li>
+    </ul>
+    
+    <ul style="list-style-type:none">
+	<li><a href="http://www.facebook.com/muziekopdedommel">
+    <img src="../framework/afbeeldingen/button-facebook.png" border="0" height="40px"></a>
+    <a href="http://www.twitter.com/festivalmodd">
+    <img src="../framework/afbeeldingen/button-twitter.png" border="0" height="40px"></a></li>
+    
+    </ul>
+  </div>
+
+</div>        
+           
+
+<!-- programma overview pagina -->
+
+       
+<div data-role="page" id="prog">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Programma</h1>
+    <a href="../m.html" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="../m.html#prog_za">Zaterdag</a></li>
+      <li><a href="../m.html#prog_zo">Zondag</a></li>
+    </ul>
+     <ul data-role="listview" data-inset="true">
+      <li><a href="programma/zaterdag/workshops.php.html" rel="external">Workshops</a></li>
+    </ul>
+  </div>
+  <!-- end content --> 
+</div>
+<!-- end page --> 
+
+
+<!-- programma zaterdag pagina -->
+           
+<div data-role="page" id="prog_za">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Programma</h1>
+    <a href="../m.html#prog" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+<h2>Zaterdag 31 mei</h2>
+            <ul data-role="listview" data-inset="true">
+      			<li><a href="programma/zaterdag/workshops.php.html" rel="external">10.00-13.00u | Workshops</a></li>
+     			<li><a href="programma/zaterdag/middag.php.html" rel="external">14.00-20.30u | Middagprogramma</a></li>
+       			<li><a href="programma/zaterdag/avond.php.html" rel="external">21.00-24.00u | Avondprogramma</a></li>
+   		    </ul>
+  </div>
+  <!-- end content --> 
+</div>
+<!-- end page --> 
+
+
+<!-- programma zondag pagina -->
+           
+<div data-role="page" id="prog_zo">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Programma</h1>
+    <a href="../m.html#prog" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+<ul data-role="listview" data-inset="true">
+<h2>Zondag 1 juni</h2>
+      			<li><a href="programma/zondag/middag.php.html" rel="external">11.00-13.00u | Middagprogramma</a></li>
+     			<li><a href="programma/zondag/kindermuziektuin.php.html" rel="external">13.00-18.00u | Kindermuziektuin</a></li>
+       			<li><a href="programma/zondag/kamermuziek.php.html" rel="external">14.00-18.00u | Kamermuziek op de Dommel</a></li>
+   		    </ul>
+  </div>
+  <!-- end content --> 
+</div>
+<!-- end page --> 
+
+
+
+<!-- plattegrond pagina -->
+
+       
+<div data-role="page" id="plat">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Plattegrond</h1>
+    <a href="../m.html" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="plattegrond/plattegrond_za.php.html" rel="external">Zaterdag</a></li>
+      <li><a href="plattegrond/plattegrond_zo.php.html" rel="external">Zondag</a></li>
+    </ul>
+     <ul data-role="listview" data-inset="true">
+      <li><a href="https://www.google.nl/maps/ms?msa=0&msid=217595061680758941398.0004f54bcf3a395b1d125" rel="external" class="ui-btn-a ui-btn ui-btn-icon-left ui-icon-location">Op de kaart</a>
+      </li>
+      </ul>
+  </div>
+  <!-- end content --> 
+</div>
+<!-- end page --> 
+
+
+
+<!-- contact pagina -->
+<div data-role="page" id="cont">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Contact</h1>
+    <a href="../m.html" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+	
+     <ul data-role="listview" data-inset="true">
+      <li><a href="https://www.google.nl/maps/ms?msa=0&msid=217595061680758941398.0004f54bcf3a395b1d125" rel="external" class="ui-btn-a ui-btn ui-btn-icon-left ui-icon-location">Festivallocatie</a>
+      </li>
+      </ul>
+    
+    <p>Stichting CultuurConnectie<br>
+	Postbus 1334<br>
+	5602 BH EINDHOVEN</p>  
+    <ul data-role="listview" data-inset="true">
+      <li><a href="tel:031617236350" rel="external" class="ui-btn-a ui-btn ui-btn-icon-left ui-icon-phone">telefoon</a></li>
+      <li><a href="mailto:info@muziekopdedommel.nl" rel="external" class="ui-btn-a ui-btn ui-btn-icon-left ui-icon-mail">e-mail</a></li>
+    </ul>
+    
+    
+  </div>
+  <!-- end content --> 
+</div>
+<!-- end page --> 
+
+
+<!-- download pagina -->
+           
+<div data-role="page" id="down">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Download</h1>
+    <a href="../m.html" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+  <div data-role="content">
+  <h2>Website Story app</h2>
+  <p>Download hier de gratis app voor het <a href="programma/zaterdag/avond.php.html" rel="external">Dommelconcert</a> 'The Website Story' op zaterdagavond, en doe als publiek mee met het concert!</p>
+    <!--<ul data-role="listview" data-inset="true">
+      <li><a href="programma/zaterdag.php" rel="external">Zaterdag</a></li>
+      <li><a href="zondag" rel="external">Zondag</a></li>
+    </ul>
+     <ul data-role="listview" data-inset="true">
+      <li><a href="workshops" rel="external">Workshops</a></li>
+    </ul>-->
+    
+    <ul style="list-style-type:none">
+    <li>
+    <a href="https://itunes.apple.com/nl/app/website-story-muziek-op-dommel/id880718144?l=en&mt=8&fb_action_ids=714026915328580&fb_action_types=og.likes" target="_blank"><img src="themes/images/appstore.png" border="0" height="80px"></a>
+    &nbsp;
+    <a href="https://play.google.com/store/apps/details?id=nl.quizzicals.muziekopdedommel" target="_blank"><img src="themes/images/googleplay.png" border="0" height="80px"></a></li>
+    </ul>
+    
+    </div>
+  <!-- end content --> 
+  </div>
+<!-- end page --> 
+
+
+<!-- workshop pagina -->
+           
+<div data-role="page" id="work">
+  <div data-role="header" id="mobilebannertxt">
+    <h1>Workshops</h1>
+    <a href="../m.html" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow"></a>
+    <a href="../m.html" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow"></a> </div>
+  <!-- end header -->
+<div data-role="content">
+    
