@@ -42,7 +42,7 @@ Date | Event | Subassociation
 
 ## Muziek op de Dommel
 
-* [2016](./modd2016/index.html) (no schedule)
+* [2016](./modd2016/index.html) (unfinished)
 * [2011-2015](./modd2010-2015/index.html)
 * [2011-2015 mobile](./modd2010-2015/m.html)
 * [2010](./modd2010-2015/2010/index.html)
