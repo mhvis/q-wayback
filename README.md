@@ -2,6 +2,8 @@
 
 Browse through old Quadrivium websites.
 
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mhvis/q-wayback/gh-pages?label=last%20update)
+
 ## Start somewhere
 
 * [Former main website](./www.esmgquadrivium.nl/index.html)
@@ -20,6 +22,7 @@ Date | Event | Subassociation
 28-11-2010 | [Vertigo Concerto](./www.studentenmuziek.nl/vertigoconcerto/index.html) | Auletes, Ensuite
 12-7-2010–18-7-2010 | [Klippertournee](./www.studentenmuziek.nl/klippertournee.html)
 6-3-2010* | [Dancing on the G-string](./www.studentenmuziek.nl/dancing/index.html) | Ensuite, Sambuca
+11-12-2009–13-12-2009 | [drieTUconcerten](./www.studentenmuziek.nl/drieTU/index.html) | Auletes
 18-4-2009 | [Divinity](./www.studentenmuziek.nl/divinity.html) | Auletes
 7-3-2009 | [Peer Gynt](./www.studentenmuziek.nl/peergynt/index.php.html) | Ensuite
 19-4-2008 | [sQratch](./www.studentenmuziek.nl/sqratch2008.html) | Vokollage, Ensuite
@@ -54,8 +57,6 @@ PHP have been converted to HTML. For any issues or comments visit the
 [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages) or
 contact me or another Q secretary directly. Contact info is on my GitHub
 profile.
-
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mhvis/q-wayback/gh-pages?label=last%20update)
 
 ## Todo
 

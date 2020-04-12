@@ -1,0 +1,219 @@
+/* Main layers */
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	width: 809px;
+}
+#header{
+	background-image:url(images/header.jpg);
+	height: 131px;
+}
+#main-content{
+	background-image:url(images/contentbg.jpg);
+	background-repeat:repeat-y;
+	padding: 1em 2.5em 2em 2.5em;
+	position:relative;
+}
+#footer{
+	background-image:url(images/footer.jpg);
+	height:56px;
+}
+/* -------------- */
+
+/* Menu items */
+#menu {
+	margin: 22px 0px 0px 130px;
+	padding: 0px 0px 0px 0px;
+	/* background: url(http://www.studentenmuziek.nl/drieTU/en/images/Menu-bg.jpg) top left repeat-y; */
+	/* width:783px; */
+	height:40px;
+	float:left;
+	display: inline; /* IE6 fix*/
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align:left;
+}
+#menu ul li{
+	float:left;
+	margin-right:2px;
+}
+
+#menu ul li a, #menu ul li a:hover {
+	/* padding, height, width instellen */ 
+	text-decoration: none;
+	float:left;
+	padding: 5px 0px 5px 0px;
+	height:25px;
+	margin:0px;
+}
+
+#Home a{
+	background: url(images/home-tr.png) no-repeat left top;
+	width:61px;
+}
+#Home a:hover, #Home-active a{ 
+	background: url(images/home.png) no-repeat left top;
+	width:61px;
+}
+#Project a{
+	background: url(images/project-tr.png) no-repeat left top;
+	width:65px;
+}
+#Project a:hover, #Project-active a{
+	background: url(images/project.png) no-repeat left top;
+	width:65px;
+}
+#Orkesten a{
+	background: url(images/orkesten-tr.png) no-repeat left top;
+	width:95px;
+}
+#Orkesten a:hover, #Orkesten-active a{
+	background: url(images/orkesten.png) no-repeat left top;
+	width:95px;
+}
+#Programma a{
+	background: url(images/programma-tr.png) no-repeat left top;
+	width:92px;
+}
+#Programma a:hover, #Programma-active a{
+	background: url(images/programma.png) no-repeat left top;
+	width:92px;
+}
+#Locaties a{
+	background: url(images/locaties-tr.png) no-repeat left top;
+	width:85px;
+}
+#Locaties a:hover, #Locaties-active a{
+	background: url(images/locaties.png) no-repeat left top;
+	width:85px;
+}
+#Kaartverkoop a{
+	background: url(images/kaartverkoop-tr.png) no-repeat left top;
+	width:62px;
+}
+#Kaartverkoop a:hover, #Kaartverkoop-active a{
+	background: url(images/kaartverkoop.png) no-repeat left top;
+	width:62px;
+}
+
+#Sponsors a{
+	background: url(images/sponsors-tr.png) no-repeat left top;
+	width:80px;
+	
+}
+#Sponsors a:hover, #Sponsors-active a{
+	background: url(images/sponsors.png) no-repeat left top;
+	width:80px;
+	
+}
+#Contact a{
+	background: url(images/contact-tr.png) no-repeat left top;
+	width:69px;
+}
+#Contact a:hover, #Contact-active a{
+	background: url(images/contact.png) no-repeat left top;
+	width:69px;
+}
+/* ------------------- */
+
+/* Fonts */
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.1em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+h2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0 0 0.5em 0;
+}
+h3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: .75em;
+	font-weight:bold;
+	padding: 0;
+	margin: 0;
+}
+p {
+	line-height:140%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	margin:0 0 1em 0;
+}
+/* ------------- */
+
+/* Content styles */
+#main-content li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	margin:0 0 0.5em 0;
+}
+#main-content td {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+}
+#main-content table.orkesttabel{
+	border-left:1px #F00 solid;
+}
+#main-content table.orkesttabel td{
+	padding-bottom:10px;
+	padding-left:5px;	
+}
+#main-content div.column{
+	float:left;
+	position:relative;
+}
+#main-content div.column20margin{
+	float:left;
+	margin-right:20px;
+	position:relative;
+}
+#main-content div.column33margin{
+	float:left;
+	margin-right:33px;
+	position:relative;
+	border-left:1px #F00 solid;
+	padding-left:5px;
+}
+#main-content div.column33margin_loc{
+	float:left;
+	margin-right:33px;
+	position:relative;
+}
+#main-content div.column33right{
+	float:left;
+	position:relative;
+	border-left:1px #F00 solid;
+	padding-left:5px;
+}
+#main-content img.left {
+	margin:0px 10px 0px 0px;
+	border:1px solid;
+	float:left;
+}
+#main-content img.right {
+	margin:0px 4px 0px 10px;
+	border:1px solid;
+	float:right;
+}
+.padding15{
+	padding-right: 15px;
+}
+.padding20{
+	padding-right: 20px;
+}
+.clear {
+	clear:both;
+	height:1px;
+}
+
+*/
