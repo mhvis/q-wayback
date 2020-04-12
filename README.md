@@ -14,6 +14,7 @@ Browse through old Quadrivium websites.
 
 Date | Event | Subassociation
 ---- | ----- | --------------
+5-3-2015 | [FFnaarClassic](./www.studentenmuziek.nl/ffnaarclassic/index.html)
 22-4-2013–16-5-2013 | [Workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/index.html)
 16-3-2013 | [Carmina Burana](./www.studentenmuziek.nl/carminaburana.html) | Auletes
 4-3-2013–22-4-2013 | [Solistenconcours](./www.studentenmuziek.nl/solist.html)
@@ -29,14 +30,15 @@ Date | Event | Subassociation
 16-11-2007 | [Queen Symphony](./www.studentenmuziek.nl/queen/index.html) | Auletes, Vokollage
 14-5-2006 | Carmina Burana (todo)
 25-3-2006 | [Saturday, in a jazzy mood](./www.studentenmuziek.nl/saturday.html) | Ensuite
-21-12-2005–22-12-2005 | [A "Swinkling" Christmas](./www.studentenmuziek.nl/kerstconcert.html) | Auletes
+21/22-12-2005 | [A "Swinkling" Christmas](./www.studentenmuziek.nl/kerstconcert.html) | Auletes
 9-4-2005 | [Guns or Roses](./www.studentenmuziek.nl/gunsorroses.html) | Auletes
-15-5-2004–16-5-2004 | [Lord of the Rings and the Dance](./www.studentenmuziek.nl/lords.html) | Auletes
+15/16-5-2004 | [Lord of the Rings and the Dance](./www.studentenmuziek.nl/lords.html) | Auletes
 12-4-2003 | Cinema Classics (todo) | Auletes
 13-4-2002 | [Musical Memories](./www.studentenmuziek.nl/musicalmemories.html) | Auletes
 
 *Op de website staat 2009 maar dat moet volgens mij 2010 zijn.
 
+(De lijst is nog niet af/compleet)
 
 ## Muziek op de Dommel
 
@@ -57,16 +59,3 @@ PHP have been converted to HTML. For any issues or comments visit the
 [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages) or
 contact me or another Q secretary directly. Contact info is on my GitHub
 profile.
-
-## Todo
-
-
-| Waar | Wat |
-| ---- | --- |
-| http://www.studentenmuziek.nl/FFnaarClassic/ |
-| http://www.studentenmuziek.nl/drieTU/ |
-| http://www.studentenmuziek.nl/flyers/.. | *To-do, folder met verschillende flyers* |
-| http://www.studentenmuziek.nl/gala/ |
-| http://www.studentenmuziek.nl/sqratch2005/ |
-| http://www.studentenmuziek.nl/vokreunie/ |
-| http://www.studentenmuziek.nl/world/ |
