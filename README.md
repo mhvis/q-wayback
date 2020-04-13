@@ -1,4 +1,4 @@
-# Q web archive
+# Quadrivium web archive
 
 Browse through old Quadrivium websites.
 
