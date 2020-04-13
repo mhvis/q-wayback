@@ -35,6 +35,8 @@ Date | Event | Subassociation
 15/16-5-2004 | [Lord of the Rings and the Dance](./www.studentenmuziek.nl/lords.html) | Auletes
 12-4-2003 | Cinema Classics (todo) | Auletes
 13-4-2002 | [Musical Memories](./www.studentenmuziek.nl/musicalmemories.html) | Auletes
+- | [Random list of flyers](https://github.com/mhvis/q-wayback/tree/gh-pages/www.studentenmuziek.nl/flyers)
+
 
 *Op de website staat 2009 maar dat moet volgens mij 2010 zijn.
 
