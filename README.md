@@ -28,10 +28,10 @@ Date | Event | Subassociation
 7-3-2009 | [Peer Gynt](./www.studentenmuziek.nl/peergynt/index.php.html) | Ensuite
 19-4-2008 | [sQratch](./www.studentenmuziek.nl/sqratch2008.html) | Vokollage, Ensuite
 16-11-2007 | [Queen Symphony](./www.studentenmuziek.nl/queen/index.html) | Auletes, Vokollage
-14-5-2006 | [Carmina Burana](./www.studentenmuziek.nl/carminaburana2006/) (flash) | Auletes, Vokollage
+14-5-2006 | [Carmina Burana](./www.studentenmuziek.nl/carminaburana2006/index.html) (flash) | Auletes, Vokollage
 25-3-2006 | [Saturday, in a jazzy mood](./www.studentenmuziek.nl/saturday.html) | Ensuite
 21/22-12-2005 | [A "Swinkling" Christmas](./www.studentenmuziek.nl/kerstconcert.html) | Auletes
-9-4-2005 | [Guns or Roses](./www.studentenmuziek.nl/gunsorroses.html) | Auletes
+9-4-2005 | [Guns or Roses](./www.studentenmuziek.nl/gunsorroses/index.html) | Auletes
 15/16-5-2004 | [Lord of the Rings and the Dance](./www.studentenmuziek.nl/lords.html) | Auletes
 12-4-2003 | [Cinema Classics](./www.studentenmuziek.nl/cinemaclassics/home.php.html) | Auletes
 12-4-2003 | [Cinema Classics](./www.studentenmuziek.nl/cinemaclassics/oudesite/index.html) (oude site) | Auletes
