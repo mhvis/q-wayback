@@ -22,7 +22,7 @@
 .clLevel1border{position:absolute; visibility:hidden; background-color:#000000; layer-background-color:#000000}
 
 </style>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Homepage Cinema Classics</title>
 <link rel="stylesheet" type="text/css" href="cc.css">
 <script language="JavaScript1.2" src="coolmenus4.js" type="text/javascript">
@@ -63,8 +63,8 @@ oCMenu.fromTop=0
 oCMenu.rows=1 
 oCMenu.menuPlacement="center"
                                                              
-oCMenu.offlineRoot="file:///C|/Inetpub/wwwroot/dhtmlcentral/projects/coolmenus/examples/" 
-oCMenu.onlineRoot="/" 
+oCMenu.offlineRoot=""
+oCMenu.onlineRoot=""
 oCMenu.resizeCheck=1 
 oCMenu.wait=1000 
 oCMenu.fillImg="cm_fill.gif"
@@ -115,26 +115,26 @@ oCMenu.level[1].borderClass="clLevel1border"
 Menu item creation:
 myCoolMenu.makeMenu(name, parent_name, text, link, target, width, height, regImage, overImage, regClass, overClass , align, rows, nolink, onclick, onmouseover, onmouseout) 
 *************************************/
-oCMenu.makeMenu('top5','','&nbsp;&nbsp;home','http://www.studentenmuziek.nl/cinemaclassics/home.php','')
+oCMenu.makeMenu('top5','','&nbsp;&nbsp;home','home.php.html','')
 
 
-oCMenu.makeMenu('top0','','&nbsp;&nbsp;project','http://www.studentenmuziek.nl/cinemaclassics/project.php','')
-  oCMenu.makeMenu('sub00','top0','&nbsp;omschrijving','http://www.studentenmuziek.nl/cinemaclassics/project.php','')
-    oCMenu.makeMenu('sub01','top0','&nbsp;doelstelling','http://www.studentenmuziek.nl/cinemaclassics/doelstelling.php','')
-		oCMenu.makeMenu('sub02','top0','&nbsp;organisatie','http://www.studentenmuziek.nl/cinemaclassics/organisatie.php','')
-		oCMenu.makeMenu('sub03','top0','&nbsp;orkest','http://www.studentenmuziek.nl/cinemaclassics/orkest.php','')
-		oCMenu.makeMenu('sub04','top0','&nbsp;dirigent','http://www.studentenmuziek.nl/cinemaclassics/dirigent.php','')
+oCMenu.makeMenu('top0','','&nbsp;&nbsp;project','project.php.html','')
+  oCMenu.makeMenu('sub00','top0','&nbsp;omschrijving','project.php.html','')
+    oCMenu.makeMenu('sub01','top0','&nbsp;doelstelling','doelstelling.php.html','')
+		oCMenu.makeMenu('sub02','top0','&nbsp;organisatie','organisatie.php.html','')
+		oCMenu.makeMenu('sub03','top0','&nbsp;orkest','orkest.php.html','')
+		oCMenu.makeMenu('sub04','top0','&nbsp;dirigent','dirigent.php.html','')
 
 		
-oCMenu.makeMenu('top1','','&nbsp;&nbsp;programma','http://www.studentenmuziek.nl/cinemaclassics/programma.php')
+oCMenu.makeMenu('top1','','&nbsp;&nbsp;programma','programma.php.html')
 	
-oCMenu.makeMenu('top2','','&nbsp;&nbsp;solisten','http://www.studentenmuziek.nl/cinemaclassics/solisten.php')
-	oCMenu.makeMenu('sub21','top2','&nbsp;Gerlant de Boer','http://www.studentenmuziek.nl/cinemaclassics/gerlant.php')
-	oCMenu.makeMenu('sub22','top2','&nbsp;Lars Wachelder','http://www.studentenmuziek.nl/cinemaclassics/lars.php')
+oCMenu.makeMenu('top2','','&nbsp;&nbsp;solisten','solisten.php.html')
+	oCMenu.makeMenu('sub21','top2','&nbsp;Gerlant de Boer','gerlant.php.html')
+	oCMenu.makeMenu('sub22','top2','&nbsp;Lars Wachelder','lars.php.html')
 
-oCMenu.makeMenu('top3','','&nbsp;&nbsp;fotos','http://www.studentenmuziek.nl/cinemaclassics/foto.php')
+oCMenu.makeMenu('top3','','&nbsp;&nbsp;fotos','foto.php.html')
 
-oCMenu.makeMenu('top4','','&nbsp;&nbsp;links','http://www.studentenmuziek.nl/cinemaclassics/links.php')
+oCMenu.makeMenu('top4','','&nbsp;&nbsp;links','links.php.html')
 
 //Leave this line - it constructs the menu
 oCMenu.construct()		
@@ -142,6 +142,27 @@ oCMenu.construct()
 
 
 </script>
+<!--
+Make invisible links for the above menu, so that a web scraper can follow the
+links in the menu. Used for scraping the page for archiving.
+-- Maarten Visscher, April 2020
+
+-->
+<div style="display: none;">
+<a href="home.php.html">home</a>
+<a href="project.php.html">project</a>
+<a href="doelstelling.php.html">doelstelling</a>
+<a href="organisatie.php.html">organisatie</a>
+<a href="orkest.php.html">orkest</a>
+<a href="dirigent.php.html">dirigent</a>
+<a href="programma.php.html">programma</a>
+<a href="solisten.php.html">solisten</a>
+<a href="gerlant.php.html">Gerlant de Boer</a>
+<a href="lars.php.html">Lars Wachelder</a>
+<a href="foto.php.html">fotos</a>
+<a href="links.php.html">links</a>
+</div>
+
 <center>
 <table width=780 border="0" cellspacing="0" cellpadding="0">
   <tr>
