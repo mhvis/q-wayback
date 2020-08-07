@@ -1,6 +1,6 @@
-# Quadrivium web archive
+# Quadrivium website archive
 
-Browse through old Quadrivium websites.
+Old Quadrivium websites.
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mhvis/q-wayback/gh-pages?label=last%20update)
 
@@ -36,7 +36,7 @@ Date | Event | Subassociation
 12-4-2003 | [Cinema Classics](./www.studentenmuziek.nl/cinemaclassics/home.php.html) | Auletes
 12-4-2003 | [Cinema Classics](./www.studentenmuziek.nl/cinemaclassics/oudesite/index.html) (oude site) | Auletes
 13-4-2002 | [Musical Memories](./www.studentenmuziek.nl/musicalmemories.html) | Auletes
-- | [Random list of flyers](https://github.com/mhvis/q-wayback/tree/gh-pages/www.studentenmuziek.nl/flyers)
+-- | [Random list of flyers](https://github.com/mhvis/q-wayback/tree/gh-pages/www.studentenmuziek.nl/flyers) |
 
 
 *Op de website staat 2009 maar dat moet volgens mij 2010 zijn.
