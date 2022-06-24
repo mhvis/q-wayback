@@ -1,12 +1,10 @@
 # Quadrivium website archive
 
-Old Quadrivium websites.
-
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mhvis/q-wayback/gh-pages?label=last%20update)
 
-## Start somewhere
+Old Quadrivium websites:
 
-* [Former main website](./www.esmgquadrivium.nl/index.html)
+* [Main website (before 2018)](./www.esmgquadrivium.nl/index.html)
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
 * [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
@@ -14,6 +12,7 @@ Old Quadrivium websites.
 
 Date | Event | Subassociation
 ---- | ----- | --------------
+5-6-2022 | [Zaad van Satan](./www.zaadvansatan.nl/index.html) | Auletes
 5-3-2015 | [FFnaarClassic](./www.studentenmuziek.nl/ffnaarclassic/index.html)
 22-4-2013–16-5-2013 | [Workshop ensemblespel voor gitaristen](./www.studentenmuziek.nl/gitaar/index.html)
 16-3-2013 | [Carmina Burana](./www.studentenmuziek.nl/carminaburana.html) | Auletes
@@ -53,12 +52,10 @@ Date | Event | Subassociation
 ## Members area
 
 The former members area in the main website contains stuff like Presstos and
-GMM documents, the archived version of this is accessible upon request.
+GMM documents, the archived version of this is stored in SharePoint (or ask me).
 
 ## About
 
-All websites are stored in HTML format, dynamic websites that were written in
-PHP have been converted to HTML. For any issues or comments visit the
+All websites are stored as HTML. Dynamic (PHP) websites have been converted to HTML. For any issues visit the
 [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages) or
-contact me or another Q secretary directly. Contact info is on my GitHub
-profile.
+[contact me](https://github.com/mhvis).

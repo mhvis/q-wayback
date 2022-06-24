@@ -1,0 +1,32 @@
+/*
+Theme Name: Satan
+Description: Twenty Twenty child theme for custom modifications.
+Author: Maarten Visscher
+Template: twentytwenty
+Version: 1
+*/
+
+
+/**
+ * Note: increment the version number to invalidate caches
+ */
+
+
+/**
+ * CTA button option 3, uses a bottom that is directly above the site footer
+ */
+.satan-cta3 {
+	position: fixed;
+	right: 0;
+	bottom: 8.4rem;
+	margin: 0;
+	z-index: 50;  /* (menu has z-index 99) */
+}
+@media (min-width: 700px) {
+	.satan-cta3 {
+		bottom: 11.3rem;
+	}
+}
+.satan-cta3 .wp-block-button__link {
+	font-size: 1rem;
+}
