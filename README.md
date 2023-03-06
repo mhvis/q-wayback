@@ -8,7 +8,7 @@ Old Quadrivium websites:
 * [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
 * [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
-## Concert or event websites
+## Concert and event websites
 
 Date | Event | Subassociation
 ---- | ----- | --------------
@@ -40,7 +40,6 @@ Date | Event | Subassociation
 
 *Op de website staat 2009 maar dat moet volgens mij 2010 zijn.
 
-(De lijst is nog niet af/compleet)
 
 ## Muziek op de Dommel
 
@@ -52,10 +51,10 @@ Date | Event | Subassociation
 ## Members area
 
 The former members area in the main website contains stuff like Presstos and
-GMM documents, the archived version of this is stored in SharePoint (or ask me).
+GMM documents. The archived version of this is stored in SharePoint, or ask [me](https://github.com/mhvis).
 
 ## About
 
-All websites are stored as HTML. Dynamic (PHP) websites have been converted to HTML. For any issues visit the
+Dynamic PHP websites are converted to HTML. For issues visit the
 [GitHub repository](https://github.com/mhvis/q-wayback/tree/gh-pages) or
 [contact me](https://github.com/mhvis).
