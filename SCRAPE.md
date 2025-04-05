@@ -6,3 +6,5 @@ Command: `wget --mirror --convert-links --page-requisites --execute robots=off -
 * Check in the browser for 404 errors.
 * The command only scrapes the URL directory given, check for missed domains or directories.
 * Remove Google Analytics or Facebook scripts.
+
+To follow other domains, add `--span-hosts --domains=domain1.com,domain2.com`
