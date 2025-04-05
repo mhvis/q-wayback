@@ -4,8 +4,9 @@
 
 Old Quadrivium websites:
 
-* [Main website (before 2018)](./www.esmgquadrivium.nl/index.html)
-* [Photos](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
+* [Website (2018–2024)](./wp-flocks/oud.esmgquadrivium.nl/index.html)
+* [Website (before 2018)](./www.esmgquadrivium.nl/index.html)
+* [Photos (until 2015)](./www.esmgquadrivium.nl/activiteiten/fotos/album/index.html)
 * [Lustrum site 1999](./www.esmgquadrivium.nl/lubo/index.html)
 
 ## Concert and event websites

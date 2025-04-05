@@ -1,0 +1,167 @@
+/*
+Theme Name: Quadrivium
+Description: Customized theme for ESMG Quadrivium
+Author:  Maarten Visscher, original by Dutch Coding Company
+Template: flocks
+Version: 2.5
+Text Domain: quadrivium
+*/
+
+
+/**
+ * # Editing notes
+ * 
+ * Please add the editing date in a comment for every change,
+ * as a poor-mans replacement for git.
+ */
+
+
+/**
+ * Use Bootstrap heading margins instead of those from Flocks,
+ * because those are strange (larger margin on the bottom, which I find ugly..).
+ * 
+ * Added 6-2-2022
+ */
+.single .entry-content h1, .single .entry-content h2, .single .entry-content h3, .single .entry-content h4, .single .entry-content h5, .single .entry-content h6, .single .entry-content .h1, .single .entry-content .h2, .single .entry-content .h3, .single .entry-content .h4, .single .entry-content .h5, .single .entry-content .h6, .page .entry-content h1, .page .entry-content h2, .page .entry-content h3, .page .entry-content h4, .page .entry-content h5, .page .entry-content h6, .page .entry-content .h1, .page .entry-content .h2, .page .entry-content .h3, .page .entry-content .h4, .page .entry-content .h5, .page .entry-content .h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/**
+ * Invisible 'for members' button fix.
+ */
+@media (max-width: 992px) {
+	.header-style-3 #main-menu #user-navigation ul li a {
+		color: #8e97ac;
+	}
+}
+
+
+/**
+ * Prevent line break in copyright notice.
+ */
+/* #site-copyright div {
+	width: 100%;
+} */
+
+
+/**
+ * For some reason, there is a row div on the homepage without a col div inside it..
+ * 
+ * Added 28-1-2022
+ */
+.row > .content-area {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/**
+ * .. And for other pages, this seems to be necessary
+ * 
+ * Added 28-1-2022
+ */
+body.page-template-default .entry-content > .vc_row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+
+/**
+ * Fix footer centering for xs viewports (not really thoroughly tested)
+ * 
+ * Added 28-1-2022
+ */
+#colophon.site-footer #site-copyright {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/**
+ * White header text.
+ */
+.header-color-wite, .header-color-wite h1, .header-color-wite h2, .header-color-wite h3 {
+	color: #ffffff;
+}
+.header-style-3 #main-menu ul#main-menu-ul li.menu-item a:hover, .header-style-3 #main-menu ul#main-menu-ul li.menu-item.menu-item-has-children > a:hover:after, .header-style-3.logged-out #main-menu .col-lg-2.col-md-2 #user-navigation ul li:first-of-type a:hover {
+	color: #ffffff;
+}
+
+
+/**
+ * No underline in the menu.
+ */
+#main-menu a:hover {
+	text-decoration: none;
+}
+
+/**
+ * Quickfix for strange Flocks grid system padding.
+ * 
+ * Note: not thoroughly tested!
+ */
+.flocks-vc-row-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/**
+ * Custom posts overview page.
+ */
+.q-entry {
+	position: relative;
+	margin-bottom: 30px;
+	background-color: #eeeeee;
+}
+
+.q-entry-thumbnail {
+/* 	margin-bottom: 15px; */
+}
+
+.q-entry-thumbnail img {
+	width: 100%;
+	height: auto;
+}
+
+.q-entry-body {
+	padding: 15px;
+	font-size: 16px;
+}
+
+.q-entry-title {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.q-entry-excerpt {
+	font-weight: 600;
+	color: #595f6f;
+}
+
+.q-entry-link {
+	color: #595f6f;
+}
+
+.q-entry-link:hover {
+	color: #595f6f;
+}
+
+
+/**
+ * Bootstrap stretched link.
+ * 
+ * See: https://getbootstrap.com/docs/4.4/utilities/stretched-link/
+ */
+.stretched-link::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	/* Just in case `pointer-events: none` is set on a parent */
+	pointer-events: auto;
+	content: "";
+	/* IE10 bugfix, see https://stackoverflow.com/questions/16947967/ie10-hover-pseudo-class-doesnt-work-without-background-color */
+	background-color: rgba(0, 0, 0, 0);
+}
